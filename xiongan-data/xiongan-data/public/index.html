@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <link rel="icon" href="<%= BASE_URL %>favicon.ico">
+  <title>白洋淀水仿真平台</title>
+  <link href="/basscss.min.css" rel="stylesheet">
+  <script data-map src="http://47.92.230.62:9090/gis/static/js/4.1.0/yunli-map.js"></script>
+  <link rel="stylesheet" href="http://47.92.230.62:9090/gis/static/css/yunli-map.css">
+  <!-- <link rel="stylesheet" href="http://47.92.230.62:9090/gis/static/css/demo.css"> -->
+  <script>
+    (function () {
+      var html = document.documentElement;
+      function onWindowResize() {
+        html.style.fontSize = html.getBoundingClientRect().width / 192 + 'px';
+      }
+      window.addEventListener('resize', onWindowResize);
+      onWindowResize();
+    })();
+  </script>
+</head>
+
+<body style="margin: 0px;">
+  <noscript>
+    <strong>We're sorry but baiyangdian doesn't work properly without JavaScript enabled. Please enable it to
+      continue.</strong>
+  </noscript>
+  <div id="app"></div>
+  <!-- built files will be auto injected -->
+</body>
+
+</html>

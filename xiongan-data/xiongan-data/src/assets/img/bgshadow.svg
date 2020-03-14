@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1920px" height="1079px" viewBox="0 0 1920 1079" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.1 (67048) - http://www.bohemiancoding.com/sketch -->
+    <title>bgshadow</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <radialGradient cx="50%" cy="22.0616273%" fx="50%" fy="22.0616273%" r="80.761397%" gradientTransform="translate(0.500000,0.220616),scale(0.562500,1.000000),rotate(90.000000),scale(1.000000,1.748674),translate(-0.500000,-0.220616)" id="radialGradient-1">
+            <stop stop-color="#294772" offset="0%"></stop>
+            <!-- <stop stop-color="#000918" stop-opacity="0.874660326" offset="100%"></stop> -->
+            <stop stop-color="#00000A" stop-opacity="1" offset="100%"></stop>
+        </radialGradient>
+    </defs>
+    <g id="visual" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.353859747">
+        <g id="-主页" fill="url(#radialGradient-1)">
+            <rect id="bgshadow" x="0" y="-1" width="1920" height="1080"></rect>
+        </g>
+    </g>
+</svg>
