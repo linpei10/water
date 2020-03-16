@@ -1,13 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1844918b-4da6-4ace-bd07-da8be7ef4390" name="Default Changelist" comment="" />
+    <list default="true" id="1844918b-4da6-4ace-bd07-da8be7ef4390" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiongan-data/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/xiongan-data/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiongan-data/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/xiongan-data/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiongan-data/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/xiongan-data/yarn.lock" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="ProjectId" id="1Z1EU3KXG8BqabKBaWiZqTtNXoS" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -16,7 +25,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/xiongan-data/public/uploads/index/right" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -55,6 +64,7 @@
       <workItem from="1584083046347" duration="20249000" />
       <workItem from="1584103977366" duration="939000" />
       <workItem from="1584162256526" duration="5147000" />
+      <workItem from="1584323877156" duration="1741000" />
     </task>
     <servers />
   </component>
@@ -62,6 +72,10 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="137" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1584323972516">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="137" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1584323972516" />
     <state x="396" y="166" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1584079046202">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -70,6 +84,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="184" y="6" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1584067139618" />
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1584323991715">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1584323991715" />
     <state x="54" y="0" width="647" height="728" key="find.popup" timestamp="1584166683314">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
