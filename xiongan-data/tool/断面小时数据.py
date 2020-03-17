@@ -1,5 +1,5 @@
 # 
-# 不太好起名字，就用了中文，不知道有没有犯大忌QAQ
+# 不太好起名字，就用了中文，不知道有没有犯大忌QAQ   you
 # 
 import xlrd
 import os
@@ -18,7 +18,7 @@ def excel2json(inputFilePath, outputFilePath):
     sheet = excel.sheet_by_index(0)
 
     # 第一行是表单标题
-    row_0 = sheet.row(0)  #第一行
+    row_0 = sheet.row(1)  #第一行
     nrows = sheet.nrows  # 行号
     ncols = sheet.ncols  # 列号
 

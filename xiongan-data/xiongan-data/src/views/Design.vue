@@ -3,7 +3,7 @@
     <div class="logo">
       <h1>
         <router-link to="/">
-          <img src="../assets/img/logo.png" />
+          <img src="../assets/img/logo.png"/>
         </router-link>
       </h1>
     </div>
@@ -16,39 +16,42 @@
           <span class="data head">NH3-N</span>
           <span class="data head last">TP</span>
         </div>
-        <ul
-          v-for="(dataItem,index) in outletData.slice(0,3)"
-          v-bind:key="index"
-        >
-          <li>
-            <div class="item">
-              <div class="icon">
-                <span class="id">{{dataItem.id}}</span>
-              </div>
-              <div class="line line1">
-                <!-- <span class="data data1">{{(typeof dataItem.tn)=="number"?dataItem.tn.toFixed(3):dataItem.tn}}</span>
-                <span class="data data2">{{(typeof dataItem.COD)=="number"?dataItem.COD.toFixed(2):dataItem.COD}}</span>
-                <span class="data data3">{{(typeof dataItem.nh3n)=="number"?dataItem.nh3n.toFixed(3):dataItem.nh3n}}</span>
-                <span class="data data4 last">{{(typeof dataItem.tp)=="number"?dataItem.tp.toFixed(3):dataItem.tp}}</span> -->
-                <span class="data data2">{{dataItem.cod instanceof Number?dataItem.cod.toFixed(3):dataItem.cod}}</span>
-                <span class="data data1">{{dataItem.tn instanceof Number?dataItem.tn.toFixed(3):dataItem.tn}}</span>
-                <span class="data data3">{{dataItem.nh3n instanceof Number?dataItem.nh3n.toFixed(3):dataItem.nh3n}}</span>
-                <span class="data data4 last">{{dataItem.tp instanceof Number?dataItem.tp.toFixed(3):dataItem.tp}}</span>
-              </div>
-              <div class="line line2">
-                <span class="address">{{dataItem.country}} {{dataItem.town}} {{dataItem.location}}</span>
+        <div class="div-scroll">
+          <ul
+            v-for="(dataItem,index) in outletData.slice(0,99)"
+            v-bind:key="index"
+          >
+            <li>
+              <div class="item">
+                <div class="icon">
+                  <span class="id">{{dataItem.id}}</span>
+                </div>
+                <div class="line line1">
+                  <!-- <span class="data data1">{{(typeof dataItem.tn)=="number"?dataItem.tn.toFixed(3):dataItem.tn}}</span>
+                  <span class="data data2">{{(typeof dataItem.COD)=="number"?dataItem.COD.toFixed(2):dataItem.COD}}</span>
+                  <span class="data data3">{{(typeof dataItem.nh3n)=="number"?dataItem.nh3n.toFixed(3):dataItem.nh3n}}</span>
+                  <span class="data data4 last">{{(typeof dataItem.tp)=="number"?dataItem.tp.toFixed(3):dataItem.tp}}</span> -->
+                  <span class="data data2">{{dataItem.cod instanceof Number?dataItem.cod.toFixed(3):dataItem.cod}}</span>
+                  <span class="data data1">{{dataItem.tn instanceof Number?dataItem.tn.toFixed(3):dataItem.tn}}</span>
+                  <span class="data data3">{{dataItem.nh3n instanceof Number?dataItem.nh3n.toFixed(3):dataItem.nh3n}}</span>
+                  <span class="data data4 last">{{dataItem.tp instanceof Number?dataItem.tp.toFixed(3):dataItem.tp}}</span>
+                </div>
+                <div class="line line2">
                 <span
-                  class="online is_online"
-                  v-if="dataItem.monitor_online"
-                ><img src="../assets/img/online.png" />在线</span>
-                <span
-                  class="online is_offline"
-                  v-else
-                ><img src="../assets/img/offline.png" />离线</span>
+                  class="address">{{dataItem.country}} {{dataItem.town}} {{dataItem.location}}</span>
+                  <span
+                    class="online is_online"
+                    v-if="dataItem.monitor_online"
+                  ><img src="../assets/img/online.png"/>在线</span>
+                  <span
+                    class="online is_offline"
+                    v-else
+                  ><img src="../assets/img/offline.png"/>离线</span>
+                </div>
               </div>
-            </div>
-          </li>
-        </ul>
+            </li>
+          </ul>
+        </div>
       </div>
       <div class="dtable dtable-sz">
         <h3 class="h3l">水质监测站污染物浓度（mg/L）</h3>
@@ -59,22 +62,25 @@
           <span class="data head">NH3-N</span>
           <span class="data head last">TP</span>
         </div>
-        <ul
-          v-for="(dataItem,index) in sectionData.slice(0,3)"
-          v-bind:key="index"
-        >
-          <li>
-            <div class="item">
-              <div class="line line1">
-                <span class="data dataSZ"><span class="dataSZspan">{{dataItem.STNM}}</span></span>
-                <span class="data data1">{{dataItem.COD instanceof Number?dataItem.COD.toFixed(3):dataItem.COD}}</span>
-                <span class="data data2">{{dataItem.TN instanceof Number?dataItem.TN.toFixed(3):dataItem.TN}}</span>
-                <span class="data data3">{{dataItem.NH3N instanceof Number?dataItem.NH3N.toFixed(3):dataItem.NH3N}}</span>
-                <span class="data data4 last">{{dataItem.TP instanceof Number?dataItem.TP.toFixed(3):dataItem.TP}}</span>
+
+        <div class="div-scoll">
+          <ul
+            v-for="(dataItem,index) in sectionData.slice(0,100)"
+            v-bind:key="index"
+          >
+            <li>
+              <div class="item">
+                <div class="line line1">
+                  <span class="data dataSZ"><span class="dataSZspan">{{dataItem.STNM}}</span></span>
+                  <span class="data data1">{{dataItem.COD instanceof Number?dataItem.COD.toFixed(3):dataItem.COD}}</span>
+                  <span class="data data2">{{dataItem.TN instanceof Number?dataItem.TN.toFixed(3):dataItem.TN}}</span>
+                  <span class="data data3">{{dataItem.NH3_N instanceof Number?dataItem.NH3_N.toFixed(3):dataItem.NH3_N}}</span>
+                  <span class="data data4 last">{{dataItem.TP instanceof Number?dataItem.TP.toFixed(3):dataItem.TP}}</span>
+                </div>
               </div>
-            </div>
-          </li>
-        </ul>
+            </li>
+          </ul>
+        </div>
       </div>
     </div>
 
@@ -91,9 +97,9 @@
         <ul>
           <li v-for="n in 6" v-bind:key="n+'sz'">
             <div class="item" :class="isMouseover(n-1)"
-              v-on:mouseover="setMouseover(n-1)"
-              v-on:mouseout="setMouseout(n-1)">
-              <span class="data dataDM">#{{n}} 仿真监测点</span><br>
+                 v-on:mouseover="setMouseover(n-1)"
+                 v-on:mouseout="setMouseout(n-1)">
+              <span class="data dataDM">#{{n}} 仿真监测站</span><br>
               <span class="data dataSZ">
                 <span class="dataSZspan">{{waterQuality[n-1]}}</span>
               </span>
@@ -239,9 +245,9 @@
         </div>
       </div>
       <div class="sec-mainbtns">
-        <router-link to="/secondPage_1"><img src="../assets/img/btnR1.png" /></router-link>
-        <router-link to="/fourthPage"><img src="../assets/img/btnR2.png" /></router-link>
-        <router-link to="/fifthPage"><img src="../assets/img/btnR3.png" /></router-link>
+        <router-link to="/secondPage_1"><img src="../assets/img/btnR1.png"/></router-link>
+        <router-link to="/fourthPage"><img src="../assets/img/btnR2.png"/></router-link>
+        <router-link to="/fifthPage"><img src="../assets/img/btnR3.png"/></router-link>
       </div>
     </div>
   </div>
@@ -294,291 +300,308 @@ export default {
 </script>
 
 <style lang="stylus" scoped>
-@import '../global.styl';
+  @import '../global.styl';
 
-btnArr();
+  btnArr();
 
-.index {
-  .panel {
-    position: fixed;
-    top: $padding-page-tb + 8rem;
-    width: 42rem;
-    padding: 2.5rem 2rem;
-    background-color: rgba($ct1, 0.5);
+  .index {
+    .panel {
+      position: fixed;
+      top: $padding-page-tb + 8rem;
+      width: 44rem;
+      padding: 2.5rem 2rem;
+      background-color: rgba($ct1, 0.5);
 
-    .line {
-      color: #67C0F5;
-    }
+      .line {
+        color: #67C0F5;
+      }
 
-    &.left {
-      left: $padding-page-lr;
-      padding-top: 0;
+      &.left {
+        left: $padding-page-lr;
+        padding-top: 0;
 
-      .dtable {
-        &.dtable-pwk {
-          .tablehead {
-            position: relative;
-            left: 4.8rem + 1.8rem;
+        div.div-scroll {
+          overflow-y: scroll;
+          max-height: calc(100vh - 65rem);
+        }
+
+        div.div-scoll {
+          overflow-y: scroll;
+          max-height: calc(100vh - 76rem);
+        }
+
+        .dtable {
+          &.dtable-pwk {
+            .tablehead {
+              position: relative;
+              left: 4.8rem + 1.8rem;
+              width 253px
+            }
+
+            .data {
+              width: 10.1rem;
+
+              &.last {
+                width: 5rem;
+              }
+            }
+
+            .item {
+              margin-top: 1.6rem;
+              margin-bottom: 2.6rem;
+
+              .icon {
+                width: 4.8rem;
+                height: 5.8rem;
+                float: left;
+                clear: both;
+                position: relative;
+                margin-right: 1.8rem;
+                background-image: url('../assets/img/drop.png');
+                background-size: 100% auto;
+                background-repeat: no-repeat;
+
+                .id {
+                  position: absolute;
+                  right: -0.6rem;
+                  bottom: 0.6rem;
+                  background-color: $ct9;
+                  color: $fff;
+                  padding: 0.1rem 0.2rem;
+                  border-radius: 0.2rem;
+                }
+              }
+
+              .line1 {
+                padding: 0.2rem 0;
+
+                .data {
+                  font-size: 1.5rem;
+                }
+              }
+
+              .line2 {
+                font-size: 1.3rem;
+
+                .onlineonline {
+                  float: right;
+                }
+              }
+            }
           }
 
-          .data {
-            width: 10.1rem;
-
-            &.last {
-              width: 5rem;
+          &.dtable-sz {
+            .data {
+              width 8rem
             }
+
+            .data.last {
+              width 3rem
+            }
+
+            .dataSZ {
+              margin-left 0rem
+              width 14rem
+            }
+          }
+        }
+      }
+
+      &.right {
+        top: $padding-page-tb;
+        right: $padding-page-lr;
+        background-color: rgba(10, 15, 24, 0.5);
+        padding: 0;
+
+        .rvideo {
+          max-height: 23rem;
+          overflow: hidden;
+          box-shadow: 0 0 3rem 0.1rem rgba($ct1, 0.6);
+
+          img, video {
+            width: 100%;
+            margin-top -1.5rem
+          }
+        }
+
+        .dlist-dm {
+          ul {
+            margin-top: -1.8rem;
+            max-height calc(100vh - 58rem)
+            overflow-y scroll
+
           }
 
           .item {
-            margin-top: 1.6rem;
-            margin-bottom: 2.6rem;
+            position: relative;
+            padding: 1.2rem 1.6rem;
 
-            .icon {
-              width: 4.8rem;
-              height: 5.8rem;
-              float: left;
-              clear: both;
-              position: relative;
-              margin-right: 1.8rem;
-              background-image: url('../assets/img/drop.png');
-              background-size: 100% auto;
-              background-repeat: no-repeat;
-
-              .id {
-                position: absolute;
-                right: -0.6rem;
-                bottom: 0.6rem;
-                background-color: $ct9;
-                color: $fff;
-                padding: 0.1rem 0.2rem;
-                border-radius: 0.2rem;
-              }
+            .dataDM {
+              color: $cd3;
             }
 
-            .line1 {
-              padding: 0.2rem 0;
-
-              .data {
-                font-size: 1.5rem;
-              }
+            .dataSZspan {
+              display: inline-block;
+              margin-top: 1rem;
             }
 
-            .line2 {
-              font-size: 1.3rem;
+            img {
+              height: 9rem;
+              width: 66%;
+              position: absolute;
+              right: 0;
+              top: 0rem;
+              padding-left 32px;
 
-              .onlineonline {
-                float: right;
-              }
+              //裁剪图片
+              clip: rect(0.2rem 31rem 9.8rem 2.6rem)
             }
-          }
-        }
-        &.dtable-sz {
-          .data {
-            width 8rem
-          }
-          .data.last {
-            width 3rem
-          }
-          .dataSZ {
-            margin-left -1rem
-            width 14rem
-          }
-        }
-      }
-    }
-
-    &.right {
-      top: $padding-page-tb;
-      right: $padding-page-lr;
-      background-color: rgba(10,15,24,0.5);
-      padding: 0;
-
-      .rvideo {
-        max-height: 23rem;
-        overflow: hidden;
-        box-shadow: 0 0 3rem 0.1rem rgba($ct1, 0.6);
-
-        img, video {
-          width: 100%;
-          margin-top -1.5rem
-        }
-      }
-
-      .dlist-dm {
-        ul {
-          margin-top: -1.8rem;
-          max-height calc(100vh - 58rem)
-          overflow-y scroll
-
-        }
-
-        .item {
-          position: relative;
-          padding: 1.2rem 1.6rem;
-
-          .dataDM {
-            color: $cd3;
-          }
-
-          .dataSZspan {
-            display: inline-block;
-            margin-top: 1rem;
-          }
-
-          img {
-            height: 9rem;
-            width: 66%;
-            position: absolute;
-            right: 0;
-            top: 0rem;
-            padding-left 32px;
-
-            //裁剪图片
-            clip: rect(0.2rem 31rem 9.8rem 2.6rem)
-          }
-
-          .action {
-            display: none;
-          }
-
-          &.active {
-            border: 1px solid $cd3;
-            border-width: 1px 0;
-            background-color: rgba($ct1, 0.5);
 
             .action {
-              display: block;
-              text-align: right;
-              margin: 1.8rem 0 0.6rem 0;
+              display: none;
             }
-          }
-        }
-      }
-    }
-  }
 
-  .panelwide {
-    width: 100vw;
-    box-sizing: border-box;
-    position: fixed;
-    padding: 0 $padding-page-lr;
+            &.active {
+              border: 1px solid $cd3;
+              border-width: 1px 0;
+              background-color: rgba($ct1, 0.5);
 
-    &.bottom {
-      bottom: $padding-page-td;
-      text-align: center;
-
-      .sec-qsz {
-        text-align: left;
-        position: fixed;
-        z-index: $z-index-panel;
-        bottom: $padding-page-tb + 0.6rem;
-        pointer-events: auto;
-
-        .graph {
-          position: relative;
-
-          & > div {
-            display: inline-block;
-            height: 1.4rem;
-            margin-top: 5rem;
-
-            .t {
-              position: relative;
-              bottom: 4rem;
-              font-size: 1.6rem;
-
-              &::before {
-                content: '|';
+              .action {
                 display: block;
-                position: absolute;
-                top: 2rem;
-                left: -0.1rem;
-                color: $fff;
-              }
-
-              .p {
-                display block
-                color: $ct2;
-                // margin-left: 0.8rem;
-                position relative
-                top -4rem
-                font-size 0.8em
+                text-align: right;
+                margin: 1.8rem 0 0.6rem 0;
               }
             }
-          }
-          & > div.example {
-            opacity 0
-            transition opacity ease 0.5s
-            position absolute
-            left 0
-            top 2rem
-            display block
-            // height 14rem
-            // width 10rem
-            background-color rgba($ct1, 0.7)
-            padding 1rem 2rem 3rem 2rem
-            width 100%
-            box-sizing border-box
-
-            p {
-              display inline
-              margin 0 2rem 0 0
-            }
-
-            span.c {
-              display inline-block
-              width 0.8rem
-              height 1rem
-              border 1px solid rgba(#fff, 0.2)
-              margin-right 0.2rem
-            }
-          }
-          &:hover div.example {
-            opacity 1
           }
         }
       }
+    }
 
-      .sec-qpollute {
+    .panelwide {
+      width: 100vw;
+      box-sizing: border-box;
+      position: fixed;
+      padding: 0 $padding-page-lr;
+
+      &.bottom {
+        bottom: $padding-page-td;
         text-align: center;
-        position: fixed;
-        bottom: $padding-page-tb + 2.2rem;
-        width: 100vw;
-        z-index: $z-index-middle;
 
-        .graph {
-          text-align: center;
+        .sec-qsz {
+          text-align: left;
+          position: fixed;
+          z-index: $z-index-panel;
+          bottom: $padding-page-tb + 0.6rem;
+          pointer-events: auto;
 
-          & > div {
-            margin-right: 3rem;
+          .graph {
+            position: relative;
+
+            & > div {
+              display: inline-block;
+              height: 1.4rem;
+              margin-top: 5rem;
+
+              .t {
+                position: relative;
+                bottom: 4rem;
+                font-size: 1.6rem;
+
+                &::before {
+                  content: '|';
+                  display: block;
+                  position: absolute;
+                  top: 2rem;
+                  left: -0.1rem;
+                  color: $fff;
+                }
+
+                .p {
+                  display block
+                  color: $ct2;
+                  // margin-left: 0.8rem;
+                  position relative
+                  top -4rem
+                  font-size 0.8em
+                }
+              }
+            }
+
+            & > div.example {
+              opacity 0
+              transition opacity ease 0.5s
+              position absolute
+              left 0
+              top 2rem
+              display block
+              // height 14rem
+              // width 10rem
+              background-color rgba($ct1, 0.7)
+              padding 1rem 2rem 3rem 2rem
+              width 100%
+              box-sizing border-box
+
+              p {
+                display inline
+                margin 0 2rem 0 0
+              }
+
+              span.c {
+                display inline-block
+                width 0.8rem
+                height 1rem
+                border 1px solid rgba(#fff, 0.2)
+                margin-right 0.2rem
+              }
+            }
+
+            &:hover div.example {
+              opacity 1
+            }
           }
         }
-      }
 
-      .sec-mainbtns {
-        position: fixed;
-        z-index: $z-index-panel;
-        right: $padding-page-tt
-        bottom $padding-page-tb
+        .sec-qpollute {
+          text-align: center;
+          position: fixed;
+          bottom: $padding-page-tb + 2.2rem;
+          width: 100vw;
+          z-index: $z-index-middle;
+
+          .graph {
+            text-align: center;
+
+            & > div {
+              margin-right: 3rem;
+            }
+          }
+        }
+
+        .sec-mainbtns {
+          position: fixed;
+          z-index: $z-index-panel;
+          right: $padding-page-tt
+          bottom $padding-page-tb
 
 
-        img {
-          width: 11rem;
-          margin-left: 2rem;
+          img {
+            width: 11rem;
+            margin-left: 2rem;
 
-          &:hover {
-            background-color: rgba($ct2, 0.05);
+            &:hover {
+              background-color: rgba($ct2, 0.05);
+            }
           }
         }
       }
     }
   }
-}
 
-.bottom{
-  pointer-events: none;
-}
-.sec-mainbtns{
-  pointer-events: auto;
-}
+  .bottom {
+    pointer-events: none;
+  }
+
+  .sec-mainbtns {
+    pointer-events: auto;
+  }
 </style>

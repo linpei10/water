@@ -2,10 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1844918b-4da6-4ace-bd07-da8be7ef4390" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/tool/水质监测信息.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tool/水质监测数据.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xiongan-data/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/xiongan-data/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xiongan-data/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/xiongan-data/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xiongan-data/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/xiongan-data/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/xiongan-data-demo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/xiongan-data-demo.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tool/断面小时数据.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tool/断面小时数据.py" beforeDir="false" afterPath="$PROJECT_DIR$/tool/断面小时数据.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiongan-data/src/assets/json/section.json" beforeDir="false" afterPath="$PROJECT_DIR$/xiongan-data/src/assets/json/section.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiongan-data/src/views/Design.vue" beforeDir="false" afterPath="$PROJECT_DIR$/xiongan-data/src/views/Design.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,26 +30,27 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/xiongan-data/src/assets/json" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
     <property name="ts.external.directory.path" value="D:\WebStorm 2019.3.3\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\Node_project\xiongan-data-demo\xiongan-data\public\uploads\index\right" />
-      <recent name="E:\Node_project\xiongan-data-demo\xiongan-data\public\uploads\index" />
-      <recent name="E:\Node_project\xiongan-data-demo\xiongan-data\src\assets\img\background" />
-      <recent name="E:\Node_project\xiongan-data-demo\xiongan-data\public\uploads\index\index-chi\first\L2\0" />
-      <recent name="E:\Node_project\xiongan-data-demo\xiongan-data\public\uploads\index\index-chi\first\R\5" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Node_project\雄安\xiongan-data\tool" />
       <recent name="E:\Node_project\xiongan-data-demo\xiongan-data\src\assets\img" />
       <recent name="E:\Node_project\xiongan-data-demo\xiongan-data\public\uploads\index\index-chi\first\R\0" />
       <recent name="E:\Node_project\xiongan-data-demo\xiongan-data\public\uploads\index\index-chi\first" />
       <recent name="E:\Node_project\xiongan-data-demo\xiongan-data\public\uploads\index\index-chi\M" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Node_project\雄安\xiongan-data\xiongan-data\src\assets\json" />
+      <recent name="E:\Node_project\雄安\xiongan-data\tool" />
+      <recent name="E:\Node_project\雄安\xiongan-data\xiongan-data\public\uploads\index\right" />
+      <recent name="E:\Node_project\xiongan-data-demo\xiongan-data\public\uploads\index\right" />
+      <recent name="E:\Node_project\xiongan-data-demo\xiongan-data\public\uploads\index" />
     </key>
   </component>
   <component name="SvnConfiguration">
@@ -64,12 +70,31 @@
       <workItem from="1584083046347" duration="20249000" />
       <workItem from="1584103977366" duration="939000" />
       <workItem from="1584162256526" duration="5147000" />
-      <workItem from="1584323877156" duration="1741000" />
+      <workItem from="1584323877156" duration="2535000" />
+      <workItem from="1584329756497" duration="647000" />
+      <workItem from="1584330430288" duration="8426000" />
+      <workItem from="1584348173693" duration="3698000" />
+      <workItem from="1584352062593" duration="1459000" />
+      <workItem from="1584409159730" duration="736000" />
+      <workItem from="1584409995940" duration="3583000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="WindowStateProjectService">
     <state x="137" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1584323972516">
@@ -88,10 +113,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1584323991715" />
-    <state x="54" y="0" width="647" height="728" key="find.popup" timestamp="1584166683314">
+    <state x="54" y="0" width="647" height="728" key="find.popup" timestamp="1584341755695">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="54" y="0" width="647" height="728" key="find.popup/0.0.1366.728@0.0.1366.728" timestamp="1584166683314" />
+    <state x="54" y="0" width="647" height="728" key="find.popup/0.0.1366.728@0.0.1366.728" timestamp="1584341755695" />
     <state x="339" y="162" key="run.anything.popup" timestamp="1584079560552">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
