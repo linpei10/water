@@ -6,6 +6,7 @@ Vue.use(Vuex);
 export default new Vuex.Store({
   state: {
     firstPageClick: 0,
+    imgUrl: 'case1-0',
   },
 
   mutations: {
@@ -18,7 +19,7 @@ export default new Vuex.Store({
   getters: {
     getFirstPageClick(state) {
       console.log(state.firstPageClick);
-      return state.firstPageClick;
+      return state.firstPageClick && state.imgUrl;
     },
   },
 });

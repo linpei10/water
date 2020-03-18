@@ -13,12 +13,12 @@
       <page1left class="page1left"
         text="污染物浓度随时间变化"
         page="first"
-        videoname="case1-1-1-0.mp4"/>
+        videoname=".mp4"/>
       <page1left class="page1left"
         text="孝义河流域地形分布图"
         titleDisplay="none"
         page="first"
-        videoname="第1仿真监测站.mp4"/>
+        videoname="-2.mp4"/>
     </div>
 
     <div class="inmiddle-ctn">

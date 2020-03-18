@@ -34,28 +34,6 @@
           </router-link>
         </h2>
         <div class="tipbox-group">
-          <div class="tipbox pwk">
-            <h4><img src="../assets/img/icon-drop.png" />排污口列表</h4>
-            <ul>
-              <li>#1采蒲北码头 <span class="online is_online"><img src="../assets/img/online.png" />在线</span>
-              </li>
-              <li>#2邸庄信号塔 <span class="online is_offline"><img src="../assets/img/offline.png" />离线</span>
-              </li>
-              <li>#3邸庄东码头 <span class="online is_online"><img src="../assets/img/online.png" />在线</span>
-              </li>
-            </ul>
-          </div>
-          <div class="tipbox dm">
-            <h4><img src="../assets/img/icon-wave.png" />断面列表</h4>
-            <ul>
-              <li>#思乡桥1 <span class="type">生态补偿考核断面1</span></li>
-              <li>#思乡桥2 <span class="type">生态补偿考核断面2</span></li>
-              <li>#思乡桥3 <span class="type">生态补偿考核断面3</span></li>
-              <li>#思乡桥4 <span class="type">生态补偿考核断面4</span></li>
-              <li>#思乡桥5 <span class="type">生态补偿考核断面5</span></li>
-              <li>#思乡桥6 <span class="type">生态补偿考核断面6</span></li>
-            </ul>
-          </div>
         </div>
       </div>
     </div>

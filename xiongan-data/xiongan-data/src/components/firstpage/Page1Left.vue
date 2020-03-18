@@ -5,8 +5,8 @@
   </div>
   <h3 class="h3l" :style="{display:textDisplay}">{{text}}</h3>
     <!-- <img src="../../assets/img/video.jpg"/> -->
-    <video width="100%" height="100%" controls autoplay preload muted loop>
-      <source :src="'uploads/index/index-chi/'+page+'/L2/'+this.$store.state.firstPageClick+'/'+videoname" type="video/mp4">
+    <video :src="'uploads/index/index-chi/'+page+'/L1/'+this.$store.state.firstPageClick+'/'+this.$store.state.imgUrl+videoname" type="video/mp4" width="321" height="180" controls autoplay preload muted loop>
+<!--      <source :src="'uploads/index/index-chi/'+page+'/L1/'+this.$store.state.firstPageClick+'/'+this.$store.state.imgUrl" type="video/mp4">-->
 <!--      <source :src="'uploads/'+page+'/0/'+videoname" type="video/mp4">-->
       Your browser does not support the video tag.
     </video>
@@ -16,8 +16,14 @@
 <script>
 // 引用断面小时数据
 // import sectionData from '../../assets/json/section.json';
+import page1middle from '@/components/firstpage/Page1Middle.vue';
 
 export default {
+  data() {
+    return {
+      num1: this.$store.state.imgUrl,
+    };
+  },
   props: {
     textDisplay: {
       type: [String],

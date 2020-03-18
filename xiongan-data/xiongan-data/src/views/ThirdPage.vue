@@ -1,7 +1,7 @@
 <template>
   <div class="page inpage third">
     <ymap display="true"/>
-    <h1>{{this.$store.state.firstPageClick}}1111</h1>
+    <h1>{{this.$store.state.firstPageClick}}</h1>
     <div class="inpanel left">
       <div class="logo">
         <h1>
@@ -10,8 +10,8 @@
           </router-link>
         </h1>
       </div>
-      <page1left class="page1left" display="none"/>
-      <page1left class="page1left sec" display="none"/>
+      <thirdleft class="page1left" display="none"/>
+      <thirdleft class="page1left sec" display="none"/>
     </div>
 
     <div class="inmiddle-ctn">
@@ -22,8 +22,8 @@
             <i class="i">&#xe658;</i>返回
           </router-link>
         </h2>
-        <page1middle class="page1middle" />
-        <page1middle class="page1middle sec"/>
+        <thirdmiddle class="page1middle" />
+        <thirdmiddle class="page1middle sec"/>
       </div>
     </div>
 
@@ -42,16 +42,16 @@
 
 <script>
 import ymap from '@/components/Map.vue';
-import page1left from '@/components/firstpage/Page1Left.vue';
+import thirdleft from '@/components/thirdpage/thirdLeft.vue';
 import page1right from '@/components/firstpage/Page1Right.vue';
-import page1middle from '@/components/firstpage/Page1Middle.vue';
+import thirdmiddle from '@/components/thirdpage/thirdMiddle.vue';
 
 export default {
   components: {
     ymap,
-    page1left,
+    thirdleft,
     page1right,
-    page1middle,
+    thirdmiddle,
   },
 };
 </script>
@@ -138,9 +138,9 @@ $top-offset1 = $padding-pagei-tb;
     }
     &>>>.button{
       position: absolute;
-      width: 32rem;
-      top: 15.5rem;
-      left: 37rem;
+      width: 4rem;
+      top: 7.4rem;
+      left: 50rem;
       .btn{
         margin: 1rem 0rem;
         font-size: 2.5rem;

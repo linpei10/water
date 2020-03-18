@@ -18,7 +18,7 @@
           :class="setClass('marker_pwk', n-1)"
         >
           <img src="../assets/img/markDrop.png">
-          <span class="t tt" v-if="infoShow">暂无说明</span>
+          <span class="t tt" v-if="infoShow">#{{n}} 排污口</span>
         </div>
       </div>
       <div class="dm">
@@ -27,7 +27,8 @@
           v-bind:key="'dm'+n"
           :class="setClass('marker_dm', n-1)"
         >
-          <div class="flag" v-if="flagShow">
+<!--          <div class="flag" v-if="flagShow">-->
+          <div class="flag">
             <div class="flagT">
               <span class="t1">#{{n}}仿真监测站</span>
             </div>
@@ -38,8 +39,8 @@
               v-on:click="setPageClick(n-1)"
             >
           </router-link>
-          <span class="t" v-if="(n-3)&&infoShow">污染源正常</span>
-          <span class="t" v-else-if="!(n-3)&&infoShow">污染源关停</span><br>
+<!--          <span class="t" v-if="(n-3)&&infoShow">污染源正常</span>-->
+<!--          <span class="t" v-else-if="!(n-3)&&infoShow">污染源关停</span><br>-->
         </div>
       </div>
     </div>

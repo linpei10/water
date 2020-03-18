@@ -5,6 +5,7 @@
 // $padding-page-lr = 8rem
 // $padding-page-tb = 4rem
 $padding-page-lr = 6rem
+$padding-page-ty = 3rem
 $padding-page-tb = 4rem
 $padding-pagei-lr = 6rem
 $padding-pagei-tb = 4rem
@@ -227,8 +228,9 @@ h3 {
       display inline-block
       color #ddd
       &.before {
-        width 4rem
-        margin-right 0.8rem
+        width 6rem
+        text-align center
+        margin-right 0
       }
       &.after {
         width 4rem
@@ -236,6 +238,7 @@ h3 {
       }
     }
     input {
+      text-align center
       width 8rem
       // font-size 1.8rem
     }
@@ -594,6 +597,8 @@ a{
     width 100%
     height 100%
     box-sizing border-box
+    overflow-y scroll
+    max-height 100vh
   }
 }
 

@@ -3,15 +3,14 @@
   <div class="mid-box">
     <hr class="horizontal" :style="{display:display}"/>
     <div class="midfont" :style="{display:display}">
-      <span class="midleft"># 第{{num}}监测断面</span>
-      <span class="midright">断面水质分析展示</span>
+      <span class="midleft">#{{num}} 仿真监测站</span>
     </div>
 
     <!-- <div class="image">
       <img id="wrw" :src="require('../../assets/img/temp/'+imgUrl+'.png')"/>
     </div> -->
-    <video width="435" height="245" controls autoplay preload muted loop
-      :src="'uploads/index/index-chi/'+page+'/M/'+this.$store.state.firstPageClick+'/'+imgUrl+'.mp4'">
+    <video width="100%" height="100%" controls autoplay preload muted loop
+      :src="'uploads/index/index-chi/'+page+'/M/'+this.$store.state.firstPageClick+'/'+imgUrl">
       <!-- <source :src="'uploads/'+page+'/'+this.$store.state.firstPageClick+'/middle/'+imgUrl" type="video/mp4"> -->
       Your browser does not support the video tag.
     </video>
@@ -35,16 +34,14 @@
 export default {
   data() {
     return {
-      pollutant: ['COD', 'TN', 'NH3-N', 'TP'],
-      imgUrl: this.$store.state.imgUrl,
+      pollutant: ['COD', 'TN', 'NH3', 'TP'],
+      imgUrl: 'case1-0.mp4',
       num: this.$store.state.firstPageClick + 1,
     };
   },
   methods: {
     changeImg(index) {
-      this.imgUrl = `case1-${index}`;
-      this.$store.state.imgUrl = `case1-${index}`;
-      console.log(this.$store.state.imgUrl);
+      this.imgUrl = `case1-${index}.mp4`;
     },
   },
   props: {

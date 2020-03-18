@@ -31,7 +31,7 @@
           </router-link>
         </h1>
       </div>
-      <h3 class="h3l">方案列表</h3>
+      <h3 class="h3l">治理方案列表</h3>
       <ul class="ulselect">
         <router-link to="/SecondPage_1">
           <li>示例方案</li>
@@ -39,7 +39,7 @@
         <li class="active">新建方案</li>
       </ul>
       <h3 class="h3l">方案简介</h3>
-      <textarea class="desc">该方案为"排污治理方案效果预测"新建方案，展示在新设定的减排指标下，河流水质可以优化到什么程度。</textarea>
+      <textarea class="desc">请对方案进行简要描述……</textarea>
     </div>
     <div class="inmiddle-ctn">
       <div class="inmiddle">
@@ -53,35 +53,14 @@
           </router-link>
         </h2>
         <div class="tipbox-group">
-          <div class="tipbox pwk">
-            <h4><img src="../assets/img/icon-drop.png" />排污口列表</h4>
-            <ul>
-              <li>#1采蒲北码头 <span class="online is_online"><img src="../assets/img/online.png" />在线</span>
-              </li>
-              <li>#2邸庄信号塔 <span class="online is_offline"><img src="../assets/img/offline.png" />离线</span>
-              </li>
-              <li>#3邸庄东码头 <span class="online is_online"><img src="../assets/img/online.png" />在线</span>
-              </li>
-            </ul>
-          </div>
-          <div class="tipbox dm">
-            <h4><img src="../assets/img/icon-wave.png" />断面列表</h4>
-            <ul>
-              <li>#思乡桥1 <span class="type">生态补偿考核断面1</span></li>
-              <li>#思乡桥2 <span class="type">生态补偿考核断面2</span></li>
-              <li>#思乡桥3 <span class="type">生态补偿考核断面3</span></li>
-              <li>#思乡桥4 <span class="type">生态补偿考核断面4</span></li>
-              <li>#思乡桥5 <span class="type">生态补偿考核断面5</span></li>
-              <li>#思乡桥6 <span class="type">生态补偿考核断面6</span></li>
-            </ul>
-          </div>
+
         </div>
       </div>
     </div>
     <div class="inpanel right">
-      <h3 class="h3l">排污口设定 <span class="h3laddbtn">+ 新增排污口</span></h3>
+      <h3 class="h3l">排污口详情 <span class="h3laddbtn">+ 新增排污口</span></h3>
       <ul class="ulcheck">
-        <li class="inputgroup ">
+        <li class="inputgroup">
           <input
             type="text"
             class="wide"
@@ -129,7 +108,7 @@
             <img src="../assets/img/delete.png" />
           </a>
         </li>
-        <li class="inputgroup active">
+        <li class="inputgroup">
           <input
             type="text"
             class="wide"

@@ -160,7 +160,7 @@
 
     <div class="panelwide bottom">
       <div class="sec-qsz">
-        <h3>各仿真监测站全时长平均水质等级</h3>
+        <h3 class="h3l">各仿真监测站全时长平均水质等级</h3>
         <div class="graph graph-qsz">
 
           <div
@@ -321,13 +321,16 @@ export default {
         padding-top: 0;
 
         div.div-scroll {
+          width: 15vm;
+          height: 200px;
           overflow-y: scroll;
-          max-height: calc(100vh - 65rem);
+          max-height: 22rem;
         }
 
         div.div-scoll {
+          width: 320px;
           overflow-y: scroll;
-          max-height: calc(100vh - 76rem);
+          max-height: 12rem;
         }
 
         .dtable {
@@ -488,6 +491,8 @@ export default {
         text-align: center;
 
         .sec-qsz {
+          padding: 0.5rem 2rem;
+          top: 68rem;
           text-align: left;
           position: fixed;
           z-index: $z-index-panel;
@@ -580,13 +585,13 @@ export default {
         .sec-mainbtns {
           position: fixed;
           z-index: $z-index-panel;
-          right: $padding-page-tt
-          bottom $padding-page-tb
+          right: $padding-page-ty;
+          bottom $padding-page-tb;
 
 
           img {
             width: 11rem;
-            margin-left: 2rem;
+            margin: 0 2.8rem;
 
             &:hover {
               background-color: rgba($ct2, 0.05);
