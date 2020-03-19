@@ -10,8 +10,22 @@
           </router-link>
         </h1>
       </div>
-      <thirdleft class="page1left" display="none"/>
-      <thirdleft class="page1left sec" display="none"/>
+      <thirdleft class="page1left"
+                 display="none"
+                 videoname2=".mp4"/>
+      <thirdleft class="page1left sec"
+                 display="none"
+                 videoname2="-2.mp4"
+      />
+<!--      <thirdleft class="page1left"-->
+
+<!--                 page="first"-->
+<!--                 videoname=".mp4"/>-->
+<!--      <thirdleft class="page1left sec"-->
+
+<!--                 titleDisplay="none"-->
+<!--                 page="first"-->
+<!--                 videoname="-2.mp4"/>-->
     </div>
 
     <div class="inmiddle-ctn">
@@ -22,8 +36,12 @@
             <i class="i">&#xe658;</i>返回
           </router-link>
         </h2>
-        <thirdmiddle class="page1middle" />
-        <thirdmiddle class="page1middle sec"/>
+        <thirdmiddle class="page1middle"
+                     videoname1=".mp4"
+        />
+        <thirdmiddle class="page1middle sec"
+                     videoname1="-2.mp4"
+        />
       </div>
     </div>
 
@@ -31,11 +49,15 @@
       <h2 class="mtitle">
         <img src="../assets/img/Shape.png" />方案一
       </h2>
-      <page1right class="page1right"/>
+      <thirdright class="page1right"
+                  image_name=".png"
+      />
       <h2 class="mtitle sec">
         <img src="../assets/img/Shape.png" />方案二
       </h2>
-      <page1right class="page1right sec"/>
+      <thirdright class="page1right sec"
+                  image_name="-2.png"
+      />
     </div>
   </div>
 </template>
@@ -43,14 +65,14 @@
 <script>
 import ymap from '@/components/Map.vue';
 import thirdleft from '@/components/thirdpage/thirdLeft.vue';
-import page1right from '@/components/firstpage/Page1Right.vue';
+import thirdright from '@/components/thirdpage/thirdRight.vue';
 import thirdmiddle from '@/components/thirdpage/thirdMiddle.vue';
 
 export default {
   components: {
     ymap,
     thirdleft,
-    page1right,
+    thirdright,
     thirdmiddle,
   },
 };
@@ -142,7 +164,7 @@ $top-offset1 = $padding-pagei-tb;
       top: 7.4rem;
       left: 50rem;
       .btn{
-        margin: 1rem 0rem;
+        margin: 0.72rem 0rem;
         font-size: 2.5rem;
         width: 12rem;
         height: 6rem;

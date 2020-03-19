@@ -3,10 +3,10 @@
     <div class="result" :style="{display:titleDisplay}">
       <span class="font">减排前仿真水质等级 Ⅳ类</span>
     </div>
-    <h3 class="h3l" :style="{display:textDisplay}">{{text}}</h3>
+<!--.result-->
     <!-- <img src="../../assets/img/video.jpg"/> -->
-    <video width="100%" height="100%" controls autoplay preload muted loop>
-      <source :src="'uploads/index/index-chi/'+page+'/L2/'+this.$store.state.firstPageClick+'/'+videoname" type="video/mp4">
+    <video :src="'uploads/govern/govern-chi/first/L1/'+this.$store.state.firstPageClick+'/'+this.$store.state.imgUrl1+videoname2" type="video/mp4" width="327" height="184" controls autoplay preload muted loop>
+
       <!--      <source :src="'uploads/'+page+'/0/'+videoname" type="video/mp4">-->
       Your browser does not support the video tag.
     </video>
@@ -18,6 +18,11 @@
 // import sectionData from '../../assets/json/section.json';
 
 export default {
+  data() {
+    return {
+      num2: this.$store.state.imgUrl1,
+    };
+  },
   props: {
     textDisplay: {
       type: [String],
@@ -34,7 +39,7 @@ export default {
     page: {
       type: [String],
     },
-    videoname: {
+    videoname2: {
       type: [String],
     },
   },
@@ -45,7 +50,7 @@ export default {
   @import '../../global.styl';
 
   .result{
-    margin: 0rem 0rem 0rem;
+    margin: 0rem 0rem 3rem;
     padding: 0rem 0rem;
     width: 100%;
     background-color:#39AAFF;

@@ -64,7 +64,7 @@
           <input
             type="text"
             class="wide"
-            value="#1采蒲北码头 "
+            value=""
           >
           <div class="labelgroup-2x">
             <div class="labelgroup">
@@ -72,7 +72,7 @@
               <input
                 type="text"
                 class="small"
-                value="14.000"
+                value=""
               >
               <span class="after">g/m3</span>
             </div>
@@ -81,7 +81,7 @@
               <input
                 type="text"
                 class="small"
-                value="0.060"
+                value=""
               >
               <span class="after">g/m3</span>
             </div>
@@ -90,7 +90,7 @@
               <input
                 type="text"
                 class="small"
-                value="0.197"
+                value=""
               >
               <span class="after">g/m3</span>
             </div>
@@ -99,7 +99,7 @@
               <input
                 type="text"
                 class="small"
-                value="0"
+                value=""
               >
               <span class="after">g/m3</span>
             </div>
@@ -112,7 +112,7 @@
           <input
             type="text"
             class="wide"
-            value="#2邸庄信号塔"
+            value=""
           >
           <div class="labelgroup-2x">
             <div class="labelgroup">
@@ -120,7 +120,7 @@
               <input
                 type="text"
                 class="small"
-                value="10.000"
+                value=""
               >
               <span class="after">g/m3</span>
             </div>
@@ -129,7 +129,7 @@
               <input
                 type="text"
                 class="small"
-                value="0.050"
+                value=""
               >
               <span class="after">g/m3</span>
             </div>
@@ -138,7 +138,7 @@
               <input
                 type="text"
                 class="small"
-                value="0.262"
+                value=""
               >
               <span class="after">g/m3</span>
             </div>
@@ -147,7 +147,7 @@
               <input
                 type="text"
                 class="small"
-                value="0"
+                value=""
               >
               <span class="after">g/m3</span>
             </div>
@@ -160,7 +160,7 @@
           <input
             type="text"
             class="wide"
-            value="#3邸庄东码头 "
+            value=""
           >
           <div class="labelgroup-2x">
             <div class="labelgroup">
@@ -168,7 +168,7 @@
               <input
                 type="text"
                 class="small"
-                value="12.000"
+                value=""
               >
               <span class="after">g/m3</span>
             </div>
@@ -177,7 +177,7 @@
               <input
                 type="text"
                 class="small"
-                value="0.060"
+                value=""
               >
               <span class="after">g/m3</span>
             </div>
@@ -186,7 +186,7 @@
               <input
                 type="text"
                 class="small"
-                value="0.259"
+                value=""
               >
               <span class="after">g/m3</span>
             </div>
@@ -195,7 +195,7 @@
               <input
                 type="text"
                 class="small"
-                value="0"
+                value=""
               >
               <span class="after">g/m3</span>
             </div>
