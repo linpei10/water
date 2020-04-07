@@ -1,5 +1,5 @@
 .home {
-  height: 1200px;
+  height: 165rem;
   background-image: url('../assets/img/background.png');
   background-size: 100%;
   background-repeat: no-repeat;
@@ -11,23 +11,23 @@ body:after {
 }
 
 #login_frame {
-  width: 400px;
-  height: 160px;
-  padding: 13px;
+  width: 55rem;
+  height: 22rem;
+  padding: 1.78rem;
   position: absolute;
   left: 49%;
   top: 83%;
-  margin-left: -200px;
-  margin-top: -200px;
+  margin-left: -27.5rem;
+  margin-top: -27.5rem;
   background-color: rgba(14, 24, 33, 0.8);
-  border-radius: 10px;
+  border-radius: 1.37rem;
   text-align: center;
   border:2px solid white;
 }
 
 #login_frame p img {
-  height: 30px;
-  margin: 20px;
+  height: 4.12px;
+  margin: 2.75rem;
 }
 
 form p > * {
@@ -36,16 +36,16 @@ form p > * {
 }
 
 #image_logo {
-  margin-top: 22px;
+  margin-top: 3.02rem;
 }
 
 .label_input {
-  font-size: 14px;
+  font-size: 1.92rem;
   font-family: SimSun;
-  width: 65px;
-  height: 28px;
-  line-height: 28px;
-  padding-left: 10px;
+  width: 8.93rem;
+  height: 3.85rem;
+  line-height: 3.85rem;
+  padding-left: 1.37rem;
   text-align: center;
   color: white;
   background: rgba(20, 108, 94, 0.9);
@@ -54,20 +54,20 @@ form p > * {
 }
 
 .text_field {
-  width: 278px;
-  height: 28px;
-  padding-left: 10px !important;
+  width: 38.22rem;
+  height: 3.85rem;
+  padding-left: 1.37rem !important;
   border-top-right-radius: 5px;
   border-bottom-right-radius: 5px;
   border: 0;
 }
 
 #btn_login {
-  font-size: 14px;
+  font-size: 1.92rem;
   font-family: SimSun;
-  width: 120px;
-  height: 28px;
-  line-height: 28px;
+  width: 16.5rem;
+  height: 3.85rem;
+  line-height: 3.85rem;
   text-align: center;
   margin-left: 33%;
   color: white;
@@ -79,12 +79,12 @@ form p > * {
 }
 
 #forget_pwd {
-  font-size: 12px;
+  font-size: 1.65rem;
   color: white;
   text-decoration: none;
   position: relative;
   float: right;
-  top: 5px;
+  top: 0.68rem;
 
 }
 
@@ -94,8 +94,8 @@ form p > * {
 }
 
 #login_control {
-  padding: 0 28px;
-  font-size: 20px;
+  padding: 0 3.85rem;
+  font-size: 2.75rem;
 }
 
 .home {

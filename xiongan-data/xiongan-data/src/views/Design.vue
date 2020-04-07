@@ -54,7 +54,7 @@
         </div>
       </div>
       <div class="dtable dtable-sz">
-        <h3 class="h3l">水质监测站污染物浓度（mg/L）</h3>
+        <h3 class="h3l">水质监测站年平均污染物浓度（mg/L）</h3>
         <div class="tablehead">
           <span class="data dataSZ head">名称</span>
           <span class="data head">COD</span>
@@ -87,8 +87,8 @@
     <div class="panel right">
       <div class="rvideo">
         <!-- <img src="../assets/img/video.jpg" /> -->
-        <video width="320" height="170" controls autoplay preload muted loop>
-          <source src="uploads/index/Alpha平台三维JS-API轨迹回放动画.mp4" type="video/mp4">
+        <video class="video_desig"  controls autoplay preload muted loop>
+          <source src="uploads/index/新思乡桥-同口村河道俯视.mp4" type="video/mp4">
           Your browser does not support the video tag.
         </video>
       </div>
@@ -110,50 +110,12 @@
               <div class="action">
                 <a class="btnI"><i class="i">&#xe63d;</i> 编辑</a>
                 <a class="btnI"><i class="i">&#xe652;</i> 删除</a>
-                <router-link to="firstPage">
-                  <button class="btnArr small">开始模拟</button>
+                <router-link :to="distPage">
+                  <button v-on:click="setPageClick(n-1)" class="btnArr small">开始模拟</button>
                 </router-link>
               </div>
             </div>
           </li>
-          <!-- <li>
-            <div class="item active">
-              <span class="data dataDM">#2 新思乡桥</span><br>
-              <span class="data dataSZ">
-                <span class="dataSZspan">劣Ⅴ</span>
-              </span>
-              <img
-                class="graph"
-                src="'../../public/uploads/page1/right/断面'+n+'水质曲线.png'"
-              />
-              <div class="action">
-                <a class="btnI"><i class="i">&#xe63d;</i> 编辑</a>
-                <a class="btnI"><i class="i">&#xe652;</i> 删除</a>
-                <router-link to="firstPage">
-                  <button class="btnArr small">开始模拟</button>
-                </router-link>
-              </div>
-            </div>
-          </li>
-          <li>
-            <div class="item">
-              <span class="data dataDM">#3 新思乡桥</span><br>
-              <span class="data dataSZ">
-                <span class="dataSZspan">劣Ⅱ</span>
-              </span>
-              <img
-                class="graph"
-                src="../../public/uploads/page1/right/断面3水质曲线.png"
-              />
-              <div class="action">
-                <a class="btnI"><i class="i">&#xe63d;</i> 编辑</a>
-                <a class="btnI"><i class="i">&#xe652;</i> 删除</a>
-                <router-link to="firstPage">
-                  <button class="btnArr small">开始模拟</button>
-                </router-link>
-              </div>
-            </div>
-          </li> -->
         </ul>
       </div>
     </div>
@@ -164,54 +126,54 @@
         <div class="graph graph-qsz">
 
           <div
-            class="bgcd2"
+            class="wttype4"
             style="width: calc(0.166*10*4rem)"
           >
             <span class="t">{{waterQuality[0]}}<span class="p">站点1</span></span>
           </div>
 
           <div
-            class="bgcd2"
+            class="wttype4"
             style="width: calc(0.166*10*4rem)"
           >
             <span class="t">{{waterQuality[1]}}<span class="p">站点2</span></span>
           </div>
 
           <div
-            class="bgcd2"
+            class="wttype4"
             style="width: calc(0.166*10*4rem)"
           >
             <span class="t">{{waterQuality[2]}}<span class="p">站点3</span></span>
           </div>
 
           <div
-            class="bgcd2"
+            class="wttype4"
             style="width: calc(0.166*10*4rem)"
           >
             <span class="t">{{waterQuality[3]}}<span class="p">站点4</span></span>
           </div>
 
           <div
-            class="bgcd2"
+            class="wttype4"
             style="width: calc(0.166*10*4rem)"
           >
             <span class="t">{{waterQuality[4]}}<span class="p">站点5</span></span>
           </div>
 
           <div
-            class="bgcd2"
+            class="wttype4"
             style="width: calc(0.166*10*4rem)"
           >
             <span class="t">{{waterQuality[5]}}<span class="p">站点6</span></span>
           </div>
 
           <div class="example">
-            <p><span class="c bgcd6"></span> I类</p>
-            <p><span class="c bgcd1"></span> II类</p>
-            <p><span class="c bgcd5"></span> III类</p>
-            <p><span class="c bgcd2"></span> IV类</p>
-            <p><span class="c bgcd3"></span> V类</p>
-            <p><span class="c bgcd4"></span> VI类</p>
+            <p><span class="c wttype1"></span> I类</p>
+            <p><span class="c wttype2"></span> II类</p>
+            <p><span class="c wttype3"></span> III类</p>
+            <p><span class="c wttype4"></span> IV类</p>
+            <p><span class="c wttype5"></span> V类</p>
+            <p><span class="c wttype6"></span> 劣V类</p>
           </div>
         </div>
       </div>
@@ -246,7 +208,7 @@
       </div>
       <div class="sec-mainbtns">
         <router-link to="/secondPage_1"><img src="../assets/img/btnR1.png"/></router-link>
-        <router-link to="/fourthPage"><img src="../assets/img/btnR2.png"/></router-link>
+<!--        <router-link to="/fourthPage"><img src="../assets/img/btnR2.png"/></router-link>-->
         <router-link to="/fifthPage"><img src="../assets/img/btnR3.png"/></router-link>
       </div>
     </div>
@@ -273,8 +235,22 @@ export default {
       waterQuality: ['Ⅳ类', 'Ⅳ类', 'Ⅳ类', 'Ⅳ类', 'Ⅳ类', 'Ⅳ类'],
     };
   },
-
+  props: {
+    distPage: {
+      type: [String],
+      default: '#',
+    },
+  },
   methods: {
+    setPageClick(index) {
+      this.$store.commit('setFirstPageClick', index);
+      if (this.distPage === '#-6') {
+        this.$emit('callFather');
+      }
+    },
+    setClass(string, index) {
+      return string + index;
+    },
     getReadtimeData() {
       // 暂时不用
     },
@@ -322,13 +298,13 @@ export default {
 
         div.div-scroll {
           width: 15vm;
-          height: 200px;
+          height: 22rem;
           overflow-y: scroll;
           max-height: 22rem;
         }
 
         div.div-scoll {
-          width: 320px;
+          width: 44rem;
           overflow-y: scroll;
           max-height: 12rem;
         }
@@ -338,7 +314,7 @@ export default {
             .tablehead {
               position: relative;
               left: 4.8rem + 1.8rem;
-              width 253px
+              width 100%
             }
 
             .data {
@@ -453,8 +429,8 @@ export default {
               width: 66%;
               position: absolute;
               right: 0;
-              top: 0rem;
-              padding-left 32px;
+              top: 1rem;
+              padding-left 4.4rem;
 
               //裁剪图片
               clip: rect(0.2rem 31rem 9.8rem 2.6rem)
@@ -467,12 +443,12 @@ export default {
             &.active {
               border: 1px solid $cd3;
               border-width: 1px 0;
-              background-color: rgba($ct1, 0.5);
+              background-color: rgba($ct1, 1);
 
               .action {
                 display: block;
                 text-align: right;
-                margin: 1.8rem 0 0.6rem 0;
+                margin: 4rem 0 0.6rem 0;
               }
             }
           }
@@ -539,16 +515,18 @@ export default {
               left 0
               top 2rem
               display block
+              text-align center
               // height 14rem
               // width 10rem
               background-color rgba($ct1, 0.7)
-              padding 1rem 2rem 3rem 2rem
+              padding 1rem 1rem 3rem 1rem
               width 100%
               box-sizing border-box
+              text-align center
 
               p {
                 display inline
-                margin 0 2rem 0 0
+                margin 0 1.5rem 0 0
               }
 
               span.c {
@@ -591,7 +569,7 @@ export default {
 
           img {
             width: 11rem;
-            margin: 0 2.8rem;
+            margin: 0 6.8rem;
 
             &:hover {
               background-color: rgba($ct2, 0.05);
@@ -608,5 +586,9 @@ export default {
 
   .sec-mainbtns {
     pointer-events: auto;
+  }
+  video.video_desig{
+    width: 44rem;
+    height: 23.37rem
   }
 </style>

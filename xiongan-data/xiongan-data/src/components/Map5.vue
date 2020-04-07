@@ -2,30 +2,31 @@
   <div class="mapBgCtn">
     <div class="map1" id="container"></div>
     <div class="marker">
-      <div class="pwk" v-if="false">
-        <div
-          v-for="n in pwk.length"
-          v-bind:key="'pwk'+n"
-          :class="setClass('marker_pwk', n-1)">
-          <img src="../assets/img/markDrop.png">
-        </div>
-      </div>
-      <div class="pwk" v-else>
+<!--      <div class="pwk" v-if="false">-->
+<!--        <div-->
+<!--          v-for="n in pwk.length"-->
+<!--          v-bind:key="'pwk'+n"-->
+<!--          :class="setClass('marker_pwk', n-1)">-->
+<!--          <img src="../assets/img/markDrop.png">-->
+<!--        </div>-->
+<!--      </div>-->
+      <div class="pwk" >
         <div
           v-for="n in pwk.length"
           v-bind:key="'pwk'+n"
           :class="setClass('marker_pwk', n-1)"
           v-on:click="clicked">
-          <img src="../assets/img/markMonitor.png">
+          <img v-on:click="gotoFifth()" src="../assets/img/markRed.png">
+          <span class="t">拥城思乡桥观测站</span>
         </div>
       </div>
       <div class="dm">
         <div
-          v-for="n in dm.length"
-          v-bind:key="'dm'+n"
-          :class="setClass('marker_dm', n-1)">
-            <img src="../assets/img/markMonitor.png">
-            <span class="t">南山水道#{{n}} 观测站</span>
+          v-for="(data,index) in Datas.slice(0,100)"
+          v-bind:key="index"
+          :class="setClass('marker_dm', index)">
+            <img src="../assets/img/markshi.png">
+            <span class="t">{{data.STNM}}第{{index+1}}观测站</span>
         </div>
       </div>
     </div>
@@ -42,74 +43,22 @@
 </template>
 
 <script>
+
+import Datas from '../assets/json/data.json';
+import Data1s from '../assets/json/data1.json';
+
 export default {
   data() {
     return {
+      Datas: Datas.data,
       offset: [-5, -28],
-
       pwk: [
         // [115.83868, 38.74641],
         // [115.84044, 38.75296],
         // [115.85259, 38.77733],
-        [115.84824, 38.75112],
+        [115.838104, 38.746206],
       ],
-      dm: [
-        [115.68024, 38.65112],
-        [115.69024, 38.64112],
-        [115.72158, 38.64512],
-        [115.73898, 38.64612],
-        [115.76359, 38.65212],
-        [115.77024, 38.66112],
-        [115.78024, 38.66812],
-        [115.81024, 38.67112],
-        [115.82624, 38.69112],
-        [115.82024, 38.71112],
-
-        [115.83024, 38.72112],
-        [115.83724, 38.73112],
-        [115.85568, 38.76848],
-        [115.86368, 38.78448],
-        [115.54568, 38.72358],
-        [115.75668, 38.56548],
-        [115.78668, 38.78848],
-        [115.79468, 38.76848],
-        [115.65768, 38.75448],
-        [115.72868, 38.78748],
-
-        [115.45868, 38.74848],
-        [115.75868, 38.67748],
-        [115.68748, 38.76848],
-        [115.46668, 38.78448],
-        [115.86768, 38.68748],
-        [115.64868, 38.74648],
-        [115.82468, 38.75348],
-        [115.78268, 38.76448],
-        [115.84368, 38.67848],
-        [115.67868, 38.74548],
-
-        [115.84568, 38.76548],
-        [115.68768, 38.69848],
-        [115.75868, 38.67448],
-        [115.73468, 38.64448],
-        [115.67468, 38.57848],
-        [115.57668, 38.68948],
-        [115.47668, 38.78648],
-        [115.76568, 38.67848],
-        [115.64768, 38.65748],
-        [115.46868, 38.74648],
-
-        [115.83168, 38.74148],
-        [115.83268, 38.61448],
-        [115.83468, 38.64148],
-        [115.84168, 38.71448],
-        [115.62468, 38.75148],
-
-        [115.71468, 38.78148],
-        [115.54768, 38.68648],
-        [115.76868, 38.46748],
-        [115.46868, 38.78788],
-        [115.88468, 38.67848],
-      ],
+      dm: Data1s.data,
       rk: [
         [115.84838, 38.76331],
         [115.85442, 38.76647],
@@ -128,8 +77,33 @@ export default {
     dist: String,
     isActive: String,
   },
-
   methods: {
+    gotoFifth() {
+      this.pageClass = 'page inpage fifthPage';
+      this.isShow = true;
+    },
+    gotoTrans() {
+      this.pageClass = 'page inpage transPage';
+      this.isShow = false;
+    },
+    gotoSixth() {
+      this.pageClass = 'page inpage sixthPage';
+      this.isShow = false;
+    },
+    isMouseover(index) {
+      if (this.mouseover) {
+        if (this.mouseover[index]) {
+          return 'active';
+        }
+      }
+      return '';
+    },
+    setMouseover(index) {
+      this.mouseover.splice(index, 1, true);
+    },
+    setMouseout(index) {
+      this.mouseover.splice(index, 1, false);
+    },
     setPageClick(index) {
       this.$store.commit('setFirstPageClick', index);
     },
@@ -148,7 +122,7 @@ export default {
       container: 'container',
       layers: ['tianditu_img'],
       zoom: 11,
-      center: [115.77024, 38.72112],
+      center: [115.874316, 38.897144],
     });
 
     const mask = new YunliMap.Layer({
@@ -193,6 +167,8 @@ export default {
 
     for (let i = 0; i < this.dm.length; i += 1) {
       const div = document.querySelector(`.marker_dm${i}`);
+      console.log(i);
+      console.log(this.dm[i]);
       const marker = new YunliMap.CustomMarker({
         position: this.dm[i],
         offset, // 默认居中
@@ -290,5 +266,8 @@ img {
     background-size: cover;
     background-image: url('../assets/img/bgshadow.svg');
   }
+}
+div[class*='marker_pwk']{
+    animation: myblink-data-v-3074bd5c 1.2s infinite;
 }
 </style>

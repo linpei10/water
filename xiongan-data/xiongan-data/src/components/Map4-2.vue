@@ -22,7 +22,7 @@
               <span class="t1">#{{n}}仿真监测站</span>
             </div>
           </div>
-          <router-link to="/ThirdPage-2">
+          <router-link to="#">
             <img
               src="../assets/img/markMonitor.png"
               v-on:click="setPageClick(n-1)"
@@ -32,39 +32,6 @@
           <!--          <span class="t" v-else-if="!(n-3)&&infoShow">污染源关停</span><br>-->
         </div>
       </div>
-      <div class="pwk">
-        <div
-          v-for="n in pwk.length"
-          v-bind:key="'pwk'+n"
-          :class="setClass('marker_pwk', n-1)"
-        >
-          <img src="../assets/img/markIn.png">
-          <span class="t tt" >#{{n}} 工程入水口</span>
-        </div>
-      </div>
-      <div class="ck">
-        <div
-          v-for="n in ck.length"
-          v-bind:key="'ck'+n"
-          :class="setClass('marker_ck', n-1)"
-        >
-          <img src="../assets/img/markOut.png">
-          <span class="t tt" >#{{n}} 工程出水口</span>
-        </div>
-      </div>
-      <div class="lk">
-        <div
-          v-for="n in lk.length"
-          v-bind:key="'lk'+n"
-          :class="setClass('marker_lk', n-1)"
-        >
-          <img src="../assets/img/engineering.png">
-          <span class="t tt" >孝义河河口湿地水质净化工程</span>
-        </div>
-      </div>
-<!--      <div class="marker_ck0">-->
-<!--        <img src="../assets/img/markOut.png">-->
-<!--      </div>-->
     </div>
   </div>
 </template>

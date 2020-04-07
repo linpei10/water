@@ -2,12 +2,55 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1844918b-4da6-4ace-bd07-da8be7ef4390" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/xiongan-data/src/components/thirdpage/thirdRight.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xiongan-data/public/map.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xiongan-data/src/assets/img/engineering.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xiongan-data/src/assets/img/markRed.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xiongan-data/src/assets/img/markshi.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xiongan-data/src/assets/img/site.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xiongan-data/src/assets/img/site_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xiongan-data/src/assets/json/data.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xiongan-data/src/components/Map2-1.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xiongan-data/src/components/Map4-2.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xiongan-data/src/components/Map6.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xiongan-data/src/components/fifthpage/Page1Left.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xiongan-data/src/components/fifthpage/Page1Middle.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xiongan-data/src/components/fifthpage/Page1Right.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xiongan-data/src/components/fourthpage/fourthLeft.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xiongan-data/src/components/fourthpage/fourthMiddle.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xiongan-data/src/components/fourthpage/fourthRight.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xiongan-data/src/views/map_sxq.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiongan-data/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/xiongan-data/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiongan-data/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/xiongan-data/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiongan-data/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/xiongan-data/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiongan-data/src/assets/basscss.min.styl" beforeDir="false" afterPath="$PROJECT_DIR$/xiongan-data/src/assets/basscss.min.styl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiongan-data/src/assets/img/btnR1.png" beforeDir="false" afterPath="$PROJECT_DIR$/xiongan-data/src/assets/img/btnR1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiongan-data/src/assets/img/btnR2.png" beforeDir="false" afterPath="$PROJECT_DIR$/xiongan-data/src/assets/img/btnR2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiongan-data/src/assets/img/btnR3.png" beforeDir="false" afterPath="$PROJECT_DIR$/xiongan-data/src/assets/img/btnR3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiongan-data/src/assets/img/markIn.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiongan-data/src/assets/img/markOut.png" beforeDir="false" afterPath="$PROJECT_DIR$/xiongan-data/src/assets/img/markOut.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiongan-data/src/assets/img/site.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiongan-data/src/assets/reset.scss" beforeDir="false" afterPath="$PROJECT_DIR$/xiongan-data/src/assets/reset.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiongan-data/src/components/Map.vue" beforeDir="false" afterPath="$PROJECT_DIR$/xiongan-data/src/components/Map.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiongan-data/src/components/Map4-1.vue" beforeDir="false" afterPath="$PROJECT_DIR$/xiongan-data/src/components/Map4-1.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiongan-data/src/components/Map5.vue" beforeDir="false" afterPath="$PROJECT_DIR$/xiongan-data/src/components/Map5.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiongan-data/src/components/firstpage/Page1Left.vue" beforeDir="false" afterPath="$PROJECT_DIR$/xiongan-data/src/components/firstpage/Page1Left.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiongan-data/src/components/firstpage/Page1Middle.vue" beforeDir="false" afterPath="$PROJECT_DIR$/xiongan-data/src/components/firstpage/Page1Middle.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/xiongan-data/src/components/thirdpage/thirdLeft.vue" beforeDir="false" afterPath="$PROJECT_DIR$/xiongan-data/src/components/thirdpage/thirdLeft.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/xiongan-data/src/components/thirdpage/thirdMiddle.vue" beforeDir="false" afterPath="$PROJECT_DIR$/xiongan-data/src/components/thirdpage/thirdMiddle.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiongan-data/src/global.styl" beforeDir="false" afterPath="$PROJECT_DIR$/xiongan-data/src/global.styl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiongan-data/src/router/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/xiongan-data/src/router/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/xiongan-data/src/store/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/xiongan-data/src/store/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiongan-data/src/views/Combine.vue" beforeDir="false" afterPath="$PROJECT_DIR$/xiongan-data/src/views/Combine.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiongan-data/src/views/Design.vue" beforeDir="false" afterPath="$PROJECT_DIR$/xiongan-data/src/views/Design.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiongan-data/src/views/FifthPage.vue" beforeDir="false" afterPath="$PROJECT_DIR$/xiongan-data/src/views/FifthPage.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiongan-data/src/views/FirstPage.vue" beforeDir="false" afterPath="$PROJECT_DIR$/xiongan-data/src/views/FirstPage.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiongan-data/src/views/FourthPage.vue" beforeDir="false" afterPath="$PROJECT_DIR$/xiongan-data/src/views/FourthPage.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiongan-data/src/views/FourthPage_2.vue" beforeDir="false" afterPath="$PROJECT_DIR$/xiongan-data/src/views/FourthPage_2.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiongan-data/src/views/FourthPage_3.vue" beforeDir="false" afterPath="$PROJECT_DIR$/xiongan-data/src/views/FourthPage_3.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/xiongan-data/src/views/SecondPage.vue" beforeDir="false" afterPath="$PROJECT_DIR$/xiongan-data/src/views/SecondPage.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiongan-data/src/views/SecondPage_1.vue" beforeDir="false" afterPath="$PROJECT_DIR$/xiongan-data/src/views/SecondPage_1.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiongan-data/src/views/ThirdPage-2.vue" beforeDir="false" afterPath="$PROJECT_DIR$/xiongan-data/src/views/ThirdPage-2.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/xiongan-data/src/views/ThirdPage.vue" beforeDir="false" afterPath="$PROJECT_DIR$/xiongan-data/src/views/ThirdPage.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -18,6 +61,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="HTML File" />
         <option value="Vue Single File Component" />
       </list>
     </option>
@@ -33,9 +77,10 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/xiongan-data/src/components/thirdpage" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/xiongan-data/public/uploads/emer/right" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -47,18 +92,18 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\Node_project\雄安\xiongan-data\xiongan-data\src\components\thirdpage" />
-      <recent name="E:\Node_project\雄安\xiongan-data\xiongan-data\public\uploads\govern\R2" />
-      <recent name="E:\Node_project\雄安\xiongan-data\xiongan-data\public\uploads\index\index-chi\first\M\0" />
-      <recent name="E:\Node_project\雄安\xiongan-data\xiongan-data\src\assets\json" />
-      <recent name="E:\Node_project\雄安\xiongan-data\tool" />
+      <recent name="E:\Node_project\雄安\xiongan-data\xiongan-data\public\uploads\emer\right" />
+      <recent name="E:\Node_project\雄安\xiongan-data\xiongan-data\src\components" />
+      <recent name="E:\Node_project\雄安\xiongan-data\xiongan-data\src\assets\img" />
+      <recent name="E:\Node_project\雄安\xiongan-data\xiongan-data\public\uploads\index" />
+      <recent name="E:\Node_project\雄安\xiongan-data\xiongan-data\src\components\fifthpage" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Node_project\雄安\xiongan-data\xiongan-data\src\components\fourthpage" />
       <recent name="E:\Node_project\雄安\xiongan-data\xiongan-data\public\uploads\index\index-chi\first\L1\0" />
       <recent name="E:\Node_project\雄安\xiongan-data\xiongan-data\src\components\thirdpage" />
       <recent name="E:\Node_project\雄安\xiongan-data\tool" />
       <recent name="E:\Node_project\xiongan-data-demo\xiongan-data\src\assets\img" />
-      <recent name="E:\Node_project\xiongan-data-demo\xiongan-data\public\uploads\index\index-chi\first\R\0" />
     </key>
   </component>
   <component name="SvnConfiguration">
@@ -93,6 +138,33 @@
       <workItem from="1584511262842" duration="5346000" />
       <workItem from="1584517257455" duration="6120000" />
       <workItem from="1584582570039" duration="8685000" />
+      <workItem from="1584670351082" duration="20701000" />
+      <workItem from="1584762934542" duration="13659000" />
+      <workItem from="1584887941577" duration="209000" />
+      <workItem from="1584888512484" duration="41000" />
+      <workItem from="1584889145775" duration="2235000" />
+      <workItem from="1584892223792" duration="8774000" />
+      <workItem from="1584934712085" duration="8336000" />
+      <workItem from="1584949285054" duration="1121000" />
+      <workItem from="1584951173968" duration="648000" />
+      <workItem from="1584955108149" duration="3654000" />
+      <workItem from="1585016967360" duration="1046000" />
+      <workItem from="1585018788047" duration="6602000" />
+      <workItem from="1585115553741" duration="9082000" />
+      <workItem from="1585125440223" duration="78000" />
+      <workItem from="1585187528367" duration="37358000" />
+      <workItem from="1585307077734" duration="4442000" />
+      <workItem from="1585314950679" duration="4819000" />
+      <workItem from="1585377840519" duration="3140000" />
+      <workItem from="1585533031980" duration="5795000" />
+      <workItem from="1585552282266" duration="6852000" />
+      <workItem from="1585619677194" duration="1466000" />
+      <workItem from="1585623849232" duration="10319000" />
+      <workItem from="1585706394775" duration="18483000" />
+      <workItem from="1585734278565" duration="8200000" />
+      <workItem from="1585802397415" duration="3733000" />
+      <workItem from="1585881015616" duration="9744000" />
+      <workItem from="1586226261469" duration="1365000" />
     </task>
     <servers />
   </component>
@@ -112,6 +184,9 @@
       </map>
     </option>
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="LAST_COMMIT_MESSAGE" value="" />
+  </component>
   <component name="WindowStateProjectService">
     <state x="275" y="22" key="#ESLint" timestamp="1584451912084">
       <screen x="0" y="0" width="1366" height="728" />
@@ -125,6 +200,18 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="396" y="166" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728@0.0.1366.728" timestamp="1584445616437" />
+    <state x="560" y="113" key="CommitChangelistDialog2" timestamp="1585715528914">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="560" y="113" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1585715528914" />
+    <state width="429" height="442" key="Diff.GoToChangePopup" timestamp="1585804001469">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="429" height="442" key="Diff.GoToChangePopup/0.0.1920.1040@0.0.1920.1040" timestamp="1585804001469" />
+    <state x="92" y="92" width="1736" height="856" key="DiffContextDialog" timestamp="1585804137451">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="92" y="92" width="1736" height="856" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1585804137451" />
     <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1584447235387">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -137,17 +224,27 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1584323991715" />
-    <state x="303" y="0" width="647" height="728" key="find.popup" timestamp="1584583306535">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state x="92" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog" timestamp="1585804137451">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="303" y="0" width="647" height="728" key="find.popup/0.0.1366.728@0.0.1366.728" timestamp="1584583306535" />
+    <state x="92" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1585804137451" />
+    <state x="92" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1585797624888">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="92" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1585797624888" />
+    <state x="370" y="-13" width="1372" height="1040" key="find.popup" timestamp="1586228876062">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="263" y="-9" width="976" height="728" key="find.popup/0.0.1366.728@0.0.1366.728" timestamp="1585624418403" />
+    <state x="370" y="-13" width="1372" height="1040" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1586228876062" />
     <state x="339" y="162" key="run.anything.popup" timestamp="1584079560552">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="339" y="162" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1584079560552" />
-    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1584067049894">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state x="486" y="70" width="945" height="969" key="search.everywhere.popup" timestamp="1585721649980">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1584067049894" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1585031204846" />
+    <state x="486" y="70" width="945" height="969" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1585721649980" />
   </component>
 </project>

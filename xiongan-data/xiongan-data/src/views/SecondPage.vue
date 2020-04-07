@@ -1,11 +1,12 @@
 <template>
   <div class="page inpage second">
+    <div style="pointer-events:none;z-index:-10"><ymap v-bind:display="true"/></div>
     <div style="display:none">
       <!-- <div class="popup-ctn popup-ctn-blur popup-jcdselect"> -->
       <!-- onclick=close-popup -->
       <div class="popup">
         <div class="popup-title">
-          <h4>监测点选择</h4>
+          <h4>监测站选择</h4>
           <a class="close">
             <img src="../assets/img/delete.png" />
           </a>
@@ -22,7 +23,6 @@
         </div>
       </div>
     </div>
-    <ymap distPage="/thirdPage" v-bind:infoShow="true"/>
     <div class="inpanel left">
       <div class="logo">
         <h1>
@@ -64,7 +64,7 @@
           <input
             type="text"
             class="wide"
-            value=""
+            value="#1 排污口"
           >
           <div class="labelgroup-2x">
             <div class="labelgroup">
@@ -74,7 +74,7 @@
                 class="small"
                 value=""
               >
-              <span class="after">g/m3</span>
+              <span class="after">mg/L</span>
             </div>
             <div class="labelgroup">
               <span class="before">TP</span>
@@ -83,16 +83,16 @@
                 class="small"
                 value=""
               >
-              <span class="after">g/m3</span>
+              <span class="after">mg/L</span>
             </div>
             <div class="labelgroup">
-              <span class="before">NH-H</span>
+              <span class="before">NH3-N</span>
               <input
                 type="text"
                 class="small"
                 value=""
               >
-              <span class="after">g/m3</span>
+              <span class="after">mg/L</span>
             </div>
             <div class="labelgroup">
               <span class="before">TN</span>
@@ -101,7 +101,7 @@
                 class="small"
                 value=""
               >
-              <span class="after">g/m3</span>
+              <span class="after">mg/L</span>
             </div>
           </div>
           <a class="delete">
@@ -112,7 +112,7 @@
           <input
             type="text"
             class="wide"
-            value=""
+            value="#2 排污口"
           >
           <div class="labelgroup-2x">
             <div class="labelgroup">
@@ -122,7 +122,7 @@
                 class="small"
                 value=""
               >
-              <span class="after">g/m3</span>
+              <span class="after">mg/L</span>
             </div>
             <div class="labelgroup">
               <span class="before">TP</span>
@@ -131,16 +131,16 @@
                 class="small"
                 value=""
               >
-              <span class="after">g/m3</span>
+              <span class="after">mg/L</span>
             </div>
             <div class="labelgroup">
-              <span class="before">NH-H</span>
+              <span class="before">NH3-N</span>
               <input
                 type="text"
                 class="small"
                 value=""
               >
-              <span class="after">g/m3</span>
+              <span class="after">mg/L</span>
             </div>
             <div class="labelgroup">
               <span class="before">TN</span>
@@ -149,7 +149,7 @@
                 class="small"
                 value=""
               >
-              <span class="after">g/m3</span>
+              <span class="after">mg/L</span>
             </div>
           </div>
           <a class="delete">
@@ -160,7 +160,7 @@
           <input
             type="text"
             class="wide"
-            value=""
+            value="#3 排污口"
           >
           <div class="labelgroup-2x">
             <div class="labelgroup">
@@ -170,7 +170,7 @@
                 class="small"
                 value=""
               >
-              <span class="after">g/m3</span>
+              <span class="after">mg/L</span>
             </div>
             <div class="labelgroup">
               <span class="before">TP</span>
@@ -179,16 +179,16 @@
                 class="small"
                 value=""
               >
-              <span class="after">g/m3</span>
+              <span class="after">mg/L</span>
             </div>
             <div class="labelgroup">
-              <span class="before">NH-H</span>
+              <span class="before">NH3-N</span>
               <input
                 type="text"
                 class="small"
                 value=""
               >
-              <span class="after">g/m3</span>
+              <span class="after">mg/L</span>
             </div>
             <div class="labelgroup">
               <span class="before">TN</span>
@@ -197,7 +197,7 @@
                 class="small"
                 value=""
               >
-              <span class="after">g/m3</span>
+              <span class="after">mg/L</span>
             </div>
           </div>
           <a class="delete">
@@ -205,7 +205,7 @@
           </a>
         </li>
       </ul>
-      <button class="btnGrey"><i class="i">&#xe659;</i>添加监测点数据</button>
+      <button class="btnGrey"><i class="i">&#xe659;</i>添加监测站数据</button>
       <button class="btnGrey"><i class="i">&#xe808;</i>进行现状对比分析</button>
       <br>
       <button class="btnArr startFz">开始仿真</button>
@@ -214,7 +214,7 @@
 </template>
 
 <script>
-import ymap from '@/components/Map.vue';
+import ymap from '@/components/Map2-1.vue';
 
 export default {
   components: {
@@ -329,4 +329,7 @@ btnArr();
 .back {
   pointer-events: auto;
 }
+  yamp{
+    pointer-events:none;
+  }
 </style>

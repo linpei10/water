@@ -1,0 +1,60 @@
+
+<!DOCTYPE html><html lang="en"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="http://47.92.230.62:9090/gis/static/js/cesium/Widgets/widgets.css">
+    <link rel="stylesheet" href="http://47.92.230.62:9090/gis/static/css/demo.css">
+    <script src="http://47.92.230.62:9090/gisfile/iClient/Build/Cesium/Cesium.js"></script>
+    <script data-map src="http://47.92.230.62:9090/gis/static/js/4.1.0/yunli-map-vr3d.js"></script>
+    <style>
+        body,html,#map{
+            width: 100%;
+            height: 100rem;
+            margin: 0;
+            padding: 0;
+        }
+    </style>
+</head>
+<body>
+<div id="map"></div>
+<script>
+    var map = new YunliMap3D.Map({
+        container:'map',
+        center:[115.966,38.922],
+        pitch:-45,
+        zoom:10
+    });
+
+    var xyzlayer = new YunliMap3D.XYZLayer({
+        url:'http://47.92.230.62:9090/gisfile/xiongan_img/{z}/{x}/{y}.jpg',
+    });
+    map.add(xyzlayer);
+
+    var scene = map.viewer.scene;
+    var widget = map.viewer.cesiumWidget;
+    try{
+        var promise = scene.open('http://47.92.230.62:8090/iserver/services/3D-local3DCache-S3M108/rest/realspace');
+        Cesium.when(promise,function(layer){
+            map.flyTo({
+                center:[115.8382667,38.74568333],
+                zoom:20,
+                pitch:-20
+            });
+        },function(e){
+            if (widget._showRenderLoopErrors) {
+                var title = '加载SCP失败，请检查网络连接状态或者url地址是否正确？';
+                widget.showErrorPanel(title, undefined, e);
+            }
+        });
+    }
+    catch(e){
+        if (widget._showRenderLoopErrors) {
+            var title = '渲染时发生错误，已停止渲染。';
+            widget.showErrorPanel(title, undefined, e);
+        }
+    }
+</script>
+</body>
+</html>

@@ -1,11 +1,11 @@
 <template>
 <div>
   <div class="result" :style="{display:titleDisplay}">
-    <span class="font">污染物浓度</span>
+    <span class="font">{{text_1}}</span>
   </div>
-  <h3 class="h3l" :style="{display:textDisplay}">{{text}}</h3>
+  <h3 class="h3l" :style="{display:textDisplay}">{{text_2}}</h3>
     <!-- <img src="../../assets/img/video.jpg"/> -->
-    <video class="video_first1" :src="'uploads/index/index-chi/first/L1/'+this.$store.state.firstPageClick+'/'+this.$store.state.imgUrl+videoname" type="video/mp4"  controls autoplay preload muted loop>
+    <video class="video_fifth1" :src="'uploads/emer/emer-chi/first/L1/'+this.$store.state.firstPageClick+'/'+this.$store.state.imgUrl+videoname" type="video/mp4"  controls autoplay preload muted loop>
 <!--      <source :src="'uploads/index/index-chi/'+page+'/L1/'+this.$store.state.firstPageClick+'/'+this.$store.state.imgUrl" type="video/mp4">-->
 <!--      <source :src="'uploads/'+page+'/0/'+videoname" type="video/mp4">-->
       Your browser does not support the video tag.
@@ -33,9 +33,13 @@ export default {
       type: [String],
       default: 'auto',
     },
-    text: {
+    text_1: {
       type: [String],
-      default: '断面污染物三维分布',
+
+    },
+    text_2: {
+      type: [String],
+
     },
     page: {
       type: [String],
@@ -62,7 +66,7 @@ export default {
   //   background-color:#E4BD07;
   // }
 }
-  video.video_first1{
+  video.video_fifth1{
     width: 44.13rem;
     height: 24.75rem
   }

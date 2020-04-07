@@ -1,12 +1,11 @@
 <template>
   <div>
     <div class="result" :style="{display:titleDisplay}">
-      <span class="font">{{water_num}}</span>
+      <span class="font">{{water_num1}}</span>
     </div>
 <!--.result-->
     <!-- <img src="../../assets/img/video.jpg"/> -->
-    <video :src="'uploads/govern/govern-chi/first/L1/'+this.$store.state.firstPageClick+'/'+this.$store.state.imgUrl1+videoname2" type="video/mp4" class="video_third1"  controls autoplay preload muted loop>
-
+    <video :src="'uploads/sim/sim-chi/first/L1/'+this.$store.state.firstPageClick+'/'+this.$store.state.imgUrl2+videoname2" type="video/mp4" class="video_four1"  controls autoplay preload muted loop>
       <!--      <source :src="'uploads/'+page+'/0/'+videoname" type="video/mp4">-->
       Your browser does not support the video tag.
     </video>
@@ -20,7 +19,7 @@
 export default {
   data() {
     return {
-      num2: this.$store.state.imgUrl1,
+      num2: this.$store.state.imgUrl2,
     };
   },
   props: {
@@ -32,9 +31,9 @@ export default {
       type: [String],
       default: 'auto',
     },
-    water_num: {
+    water_num1: {
       type: [String],
-      default: '',
+      default: '断面污染物三维分布',
     },
     page: {
       type: [String],
@@ -61,7 +60,7 @@ export default {
     //   background-color:#E4BD07;
     // }
   }
-  video.video_third1{
+  video.video_four1{
     width: 45rem;
     height: 25.3rem
   }

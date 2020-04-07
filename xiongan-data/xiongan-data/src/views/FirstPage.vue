@@ -1,5 +1,6 @@
 <template>
   <div class="page inpage first">
+
     <ymap v-bind:display="true"/>
 
     <div class="inpanel left">
@@ -15,7 +16,7 @@
         page="first"
         videoname=".mp4"/>
       <page1left class="page1left"
-        text="孝义河流域地形分布图"
+        text="孝义河流域速度分布图"
         titleDisplay="none"
         page="first"
         videoname="-2.mp4"/>
@@ -24,7 +25,7 @@
     <div class="inmiddle-ctn">
       <div class="inmiddle">
         <h2 class="mtitle">
-          <img src="../assets/img/Shape.png" />第{{num}}仿真监测站
+          <img src="../assets/img/Shape.png" />#{{num}}仿真监测站
                     <router-link to="/Combine" class="back">
             <i class="i">&#xe658;</i>返回
           </router-link>

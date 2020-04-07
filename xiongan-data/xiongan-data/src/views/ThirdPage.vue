@@ -12,9 +12,11 @@
       </div>
       <thirdleft class="page1left"
                  display="none"
+                 water_num="减排前仿真水质等级 Ⅳ类"
                  videoname2=".mp4"/>
       <thirdleft class="page1left sec"
                  display="none"
+                 water_num="减排后仿真水质等级 Ⅳ类"
                  videoname2="-2.mp4"
       />
 <!--      <thirdleft class="page1left"-->
@@ -47,13 +49,13 @@
 
     <div class="inpanel right">
       <h2 class="mtitle">
-        <img src="../assets/img/Shape.png" />方案一
+        <img src="../assets/img/Shape.png" />减排前
       </h2>
       <thirdright class="page1right"
                   image_name=".png"
       />
       <h2 class="mtitle sec">
-        <img src="../assets/img/Shape.png" />方案二
+        <img src="../assets/img/Shape.png" />减排后
       </h2>
       <thirdright class="page1right sec"
                   image_name="-2.png"

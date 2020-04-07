@@ -3,14 +3,14 @@
   <div class="mid-box">
     <hr class="horizontal" :style="{display:display}"/>
     <div class="midfont" :style="{display:display}">
-      <span class="midleft"># {{num}}监测分段</span>
+      <span class="midleft">#{{num}} 仿真监测站</span>
     </div>
 
     <!-- <div class="image">
       <img id="wrw" :src="require('../../assets/img/temp/'+imgUrl+'.png')"/>
     </div> -->
-    <video class="video_Page2"   controls autoplay preload muted loop
-      :src="'uploads/index/index-chi/first/M/'+this.$store.state.firstPageClick+'/'+imgUrl+'.mp4'">
+    <video class="video_Page1"  controls autoplay preload muted loop
+      :src="'uploads/emer/emer-chi/first/M/'+this.$store.state.firstPageClick+'/'+imgUrl+'.mp4'">
       <!-- <source :src="'uploads/'+page+'/'+this.$store.state.firstPageClick+'/middle/'+imgUrl" type="video/mp4"> -->
       Your browser does not support the video tag.
     </video>
@@ -18,7 +18,7 @@
       <source :src="'uploads/'+page+'/'+this.$store.state.firstPageClick+'/middle/'+imgUrl" type="video/mp4">
       Your browser does not support the video tag.
     </video> -->
-    <div class="button" >
+    <div class="button1" >
       <div v-for="(item,index) in pollutant"
         v-bind:key="'img'+index"
         class="btn"
@@ -92,7 +92,7 @@ $btn-height = 7.4rem;
     }
   }
 
-  .button{
+  .button1{
     position: relative;
     left: 1rem;
     top: 2rem;
@@ -117,10 +117,10 @@ $btn-height = 7.4rem;
       }
     }
   }
-}g
-video.video_Page2{
+}
+video.video_Page1{
   width: 59.8rem;
-   height: 33.68rem
+  height: 33.68rem
 }
 
 </style>

@@ -2,10 +2,10 @@
   <div class="page inpage second">
     <div style="display:none">
       <!-- <div class="popup-ctn popup-ctn-blur popup-jcdselect"> -->
-      <!-- onclick=close-popup -->.dlist-dm
+      <!-- onclick=close-popup -->
       <div class="popup">
         <div class="popup-title">
-          <h4>监测点选择</h4>
+          <h4>监测站选择</h4>
           <a class="close">
             <img src="../assets/img/delete.png"/>
           </a>
@@ -89,24 +89,24 @@
                 class="wide"
                 value="#1 排污口"
               >
+              <div class="labelgroup">
+                <span class="before">经度</span>
+                <input
+                  type="text"
+                  class="small"
+                  value="115.838211"
+                >
+
+              </div>
+              <div class="labelgroup">
+                <span class="before">纬度</span>
+                <input
+                  type="text"
+                  class="small"
+                  value="38.746351"
+                >
+              </div>
               <div class="labelgroup-2x">
-                <div class="labelgroup">
-                  <span class="before">经度</span>
-                  <input
-                    type="text"
-                    class="small"
-                    value=""
-                  >
-                  <span class="after">(double)</span>
-                </div>
-                <div class="labelgroup">
-                  <span class="before">纬度</span>
-                  <input
-                    type="text"
-                    class="small"
-                    value=""
-                  >
-                  <span class="after">(double)</span></div>
                 <div class="labelgroup">
                   <span class="before">COD</span>
                   <input
@@ -126,7 +126,7 @@
                   <span class="after">mg/L</span>
                 </div>
                 <div class="labelgroup">
-                  <span class="before">NH-H</span>
+                  <span class="before">NH3-N</span>
                   <input
                     type="text"
                     class="small"
@@ -159,24 +159,24 @@
                 class="wide"
                 value="#2 排污口"
               >
+              <div class="labelgroup">
+                <span class="before">经度</span>
+                <input
+                  type="text"
+                  class="small"
+                  value="115.8405"
+                >
+
+              </div>
+              <div class="labelgroup">
+                <span class="before">纬度</span>
+                <input
+                  type="text"
+                  class="small"
+                  value="38.752889"
+                >
+              </div>
               <div class="labelgroup-2x">
-                <div class="labelgroup">
-                  <span class="before">经度</span>
-                  <input
-                    type="text"
-                    class="small"
-                    value=""
-                  >
-                  <span class="after">(double)</span>
-                </div>
-                <div class="labelgroup">
-                  <span class="before">纬度</span>
-                  <input
-                    type="text"
-                    class="small"
-                    value=""
-                  >
-                  <span class="after">(double)</span></div>
                 <div class="labelgroup">
                   <span class="before">COD</span>
                   <input
@@ -196,7 +196,7 @@
                   <span class="after">mg/L</span>
                 </div>
                 <div class="labelgroup">
-                  <span class="before">NH-H</span>
+                  <span class="before">NH3-N</span>
                   <input
                     type="text"
                     class="small"
@@ -229,24 +229,24 @@
                 class="wide"
                 value="#3 排污口"
               >
+              <div class="labelgroup">
+                <span class="before">经度</span>
+                <input
+                  type="text"
+                  class="small"
+                  value="115.853376"
+                >
+
+              </div>
+              <div class="labelgroup">
+                <span class="before">纬度</span>
+                <input
+                  type="text"
+                  class="small"
+                  value="38.777693"
+                >
+              </div>
               <div class="labelgroup-2x">
-                <div class="labelgroup">
-                  <span class="before">经度</span>
-                  <input
-                    type="text"
-                    class="small"
-                    value=""
-                  >
-                  <span class="after">(double)</span>
-                </div>
-                <div class="labelgroup">
-                  <span class="before">纬度</span>
-                  <input
-                    type="text"
-                    class="small"
-                    value=""
-                  >
-                  <span class="after">(double)</span></div>
                 <div class="labelgroup">
                   <span class="before">COD</span>
                   <input
@@ -266,7 +266,7 @@
                   <span class="after">mg/L</span>
                 </div>
                 <div class="labelgroup">
-                  <span class="before">NH-H</span>
+                  <span class="before">NH3-N</span>
                   <input
                     type="text"
                     class="small"
@@ -279,7 +279,7 @@
                   <input
                     type="text"
                     class="small"
-                    value="0.03"
+                    value="0.036"
                   >
                   <span class="after">mg/L</span>
                 </div>
@@ -288,7 +288,7 @@
                   <input
                     type="text"
                     class="small"
-                    value
+                    value="1"
                   >
                   <span class="after">m³/s</span></div>
               </div>
@@ -306,131 +306,20 @@
       <div class="dtable dlist dlist-dm">
         <h3 class="h3l">示例方案仿真监测站水质等级随时间变化</h3>
         <ul>
-          <li>
-            <router-link to="/thirdPage">
-              <div class="item">
-                <span class="data dataDM">#1 仿真监测站</span><br>
-                <span class="data dataSZ">
-                  <span class="dataSZspan">Ⅳ类</span>
-                </span>
-                <img
-                  class="graph"
-                  src="uploads/govern/R2/case3-0.png"
-                />
-                <div class="action">
-                  <a class="btnI"><i class="i">&#xe63d;</i> 编辑</a>
-                  <a class="btnI"><i class="i">&#xe652;</i> 删除</a>
-                  <router-link to="firstPage">
-                    <button class="btnArr small">开始模拟</button>
-                  </router-link>
-                </div>
-              </div>
-            </router-link>
-          </li>
-          <li>
-            <router-link to="/thirdPage">
-              <div class="item">
-                <span class="data dataDM">#2 仿真监测站</span><br>
-                <span class="data dataSZ">
-                  <span class="dataSZspan">Ⅳ类</span>
-                </span>
-                <img
-                  class="graph"
-                  src="uploads/govern/R2/case3-1.png"
-                />
-                <div class="action">
-                  <a class="btnI"><i class="i">&#xe63d;</i> 编辑</a>
-                  <a class="btnI"><i class="i">&#xe652;</i> 删除</a>
-                  <router-link to="firstPage">
-                    <button class="btnArr small">开始模拟</button>
-                  </router-link>
-                </div>
-              </div>
-            </router-link>
-          </li>
-          <li>
-            <router-link to="/thirdPage">
-              <div class="item">
-                <span class="data dataDM">#3 仿真监测站</span><br>
-                <span class="data dataSZ">
-                  <span class="dataSZspan">Ⅳ类</span>
-                </span>
-                <img
-                  class="graph"
-                  src="uploads/govern/R2/case3-2.png"
-                />
-                <div class="action">
-                  <a class="btnI"><i class="i">&#xe63d;</i> 编辑</a>
-                  <a class="btnI"><i class="i">&#xe652;</i> 删除</a>
-                  <router-link to="firstPage">
-                    <button class="btnArr small">开始模拟</button>
-                  </router-link>
-                </div>
-              </div>
-            </router-link>
-          </li>
-          <li>
-            <router-link to="/thirdPage">
-              <div class="item">
-                <span class="data dataDM">#4 仿真监测站</span><br>
-                <span class="data dataSZ">
-                  <span class="dataSZspan">Ⅳ类</span>
-                </span>
-                <img
-                  class="graph"
-                  src="uploads/govern/R2/case3-3.png"
-                />
-                <div class="action">
-                  <a class="btnI"><i class="i">&#xe63d;</i> 编辑</a>
-                  <a class="btnI"><i class="i">&#xe652;</i> 删除</a>
-                  <router-link to="firstPage">
-                    <button class="btnArr small">开始模拟</button>
-                  </router-link>
-                </div>
-              </div>
-            </router-link>
-          </li>
-          <li>
-            <router-link to="/thirdPage">
-              <div class="item">
-                <span class="data dataDM">#5 仿真监测站</span><br>
-                <span class="data dataSZ">
-                  <span class="dataSZspan">Ⅳ类</span>
-                </span>
-                <img
-                  class="graph"
-                  src="uploads/govern/R2/case3-4.png"
-                />
-                <div class="action">
-                  <a class="btnI"><i class="i">&#xe63d;</i> 编辑</a>
-                  <a class="btnI"><i class="i">&#xe652;</i> 删除</a>
-                  <router-link to="firstPage">
-                    <button class="btnArr small">开始模拟</button>
-                  </router-link>
-                </div>
-              </div>
-            </router-link>
-          </li>
-          <li>
-            <router-link to="/thirdPage">
-              <div class="item">
-                <span class="data dataDM">#6 仿真监测站</span><br>
-                <span class="data dataSZ">
-                  <span class="dataSZspan">Ⅳ类</span>
-                </span>
-                <img
-                  class="graph"
-                  src="uploads/govern/R2/case3-5.png"
-                />
-                <div class="action">
-                  <a class="btnI"><i class="i">&#xe63d;</i> 编辑</a>
-                  <a class="btnI"><i class="i">&#xe652;</i> 删除</a>
-                  <router-link to="firstPage">
-                    <button class="btnArr small">开始模拟</button>
-                  </router-link>
-                </div>
-              </div>
-            </router-link>
+          <li v-for="n in 6" v-bind:key="n">
+            <div class="item">
+              <span class="data dataDM">#{{n}} 仿真监测站</span><br>
+              <span class="data dataSZ">
+                <span class="dataSZspan">Ⅳ类</span>
+              </span>
+              <router-link :to="distPage">
+              <img
+                class="graph"
+                :src="'uploads/govern/R2/case3-'+n+'.png'"
+                v-on:click="setPageClick(n-1)"
+              />
+              </router-link>
+            </div>
           </li>
           <br>
           <br>
@@ -448,6 +337,20 @@ import ymap from '@/components/Map.vue';
 export default {
   components: {
     ymap,
+  },
+  props: {
+    distPage: {
+      type: [String],
+      default: '/thirdPage',
+    },
+  },
+  methods: {
+    setPageClick(index) {
+      this.$store.commit('setFirstPageClick', index);
+      if (this.distPage === '#-6') {
+        this.$emit('callFather');
+      }
+    },
   },
   mounted() {
     this.ulcheckInit();
@@ -631,7 +534,7 @@ export default {
   }
 .sec1-scorll{
   width: 15vm;
-  height: 200px;
+  height: 27.5rem;
   overflow-y: scroll;
   max-height: 30vh;
 }

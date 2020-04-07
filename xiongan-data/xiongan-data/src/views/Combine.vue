@@ -4,7 +4,7 @@
 -->
   <div class="play">
     <ymap distPage="/firstPage" v-bind:flagShow="true"/>
-    <design />
+    <design distPage="/firstPage" v-bind:flagShow="true" />
   </div>
 </template>
 

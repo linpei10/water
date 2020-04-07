@@ -11,7 +11,7 @@
       </div>
       <h3 class="h3l">方案列表</h3>
       <ul class="ulselect">
-        <li class="active">河口湿地水质净化工程</li>
+        <li class="active">孝义河河口湿地水质净化工程</li>
         <router-link to="/FourthPage_2">
           <li>新建污水净化工程</li>
         </router-link>
@@ -20,7 +20,7 @@
         </router-link>
       </ul>
       <h3 class="h3l">工程简介</h3>
-      <textarea class="desc">该方案为"新建工程污染影响仿真"示例方案，展示在特定的工程排放下，河流水质可以优化到什么程度。</textarea>
+      <textarea class="desc">孝义河河口湿地水质净化工程包括水质净化处理能力为20万m3/天。工程总建设面积约2.11km2，湿地工艺采用“前置沉淀生态塘+潜流湿地+多塘系统”体系，生态湿地有效净化面积 1.41km2，其中生态塘2hm2、氧化塘17.4hm2、潜流湿地25.68hm2、多塘系统 96.23hm2。工程建设内容主要包括：水质净化工程、生态修复工程、物联网工程、 配套设施及公共工程等。湿地出水水质主要考核项为总磷。四个入水口的流量分别为：0.694 、0.579 、0.694 和0.347 立方米/s，出口流量为2.3立方米/s。此处设定总磷的去除率为40%，其余污染物无净化效果。</textarea>
     </div>
     <div class="inmiddle-ctn">
       <div class="inmiddle">
@@ -52,18 +52,18 @@
               <input
                 type="text"
                 class="small"
-                value="115.85426"
+                value="115.855144"
               >
-              <span class="after">(double)</span>
+              <span class="after"></span>
             </div>
             <div class="labelgroup">
               <span class="before">纬度</span>
               <input
                 type="text"
                 class="small"
-                value="38.76392"
+                value="38.76599"
               >
-              <span class="after">(double)</span></div>
+              </div>
           </div>
           <a class="delete">
             <img src="../assets/img/delete.png" />
@@ -75,59 +75,69 @@
             class="wide"
             value="入口1"
           >
+          <div class="labelgroup">
+            <span class="before">经度</span>
+            <input
+              type="text"
+              class="small"
+              value="115.848192"
+            >
+
+          </div>
+          <div class="labelgroup">
+            <span class="before">纬度</span>
+            <input
+              type="text"
+              class="small"
+              value="38.76312"
+            >
+          </div>
           <div class="labelgroup-2x">
             <div class="labelgroup">
               <span class="before">COD</span>
               <input
                 type="text"
                 class="small"
-                value="14.000"
+                value="21.4389"
               >
-              <span class="after">g/m3</span>
-            </div>
-            <div class="labelgroup">
-              <span class="before">TP</span>
-              <input
-                type="text"
-                class="small"
-                value="0.060"
-              >
-              <span class="after">g/m3</span>
-            </div>
-            <div class="labelgroup">
-              <span class="before">NH-H</span>
-              <input
-                type="text"
-                class="small"
-                value="0.197"
-              >
-              <span class="after">g/m3</span>
+              <span class="after">mg/L</span>
             </div>
             <div class="labelgroup">
               <span class="before">TN</span>
               <input
                 type="text"
                 class="small"
-                value="0"
+                value="0.1"
               >
-              <span class="after">g/m3</span>
+              <span class="after">mg/L</span>
+            </div>
+            <div class="labelgroup">
+              <span class="before">NH3-N</span>
+              <input
+                type="text"
+                class="small"
+                value="0.07878"
+              >
+              <span class="after">mg/L</span>
+            </div>
+            <div class="labelgroup">
+              <span class="before">TP</span>
+              <input
+                type="text"
+                class="small"
+                value="0.097106"
+              >
+              <span class="after">mg/L</span>
             </div>
             <div class="labelgroup">
               <span class="before">流量</span>
               <input
                 type="text"
                 class="small"
-                value="100"
+                value="0.694"
               >
-              <span class="after">m3/S</span></div>
-            <div class="labelgroup">
-              <span class="before">PH</span>
-              <input
-                type="text"
-                class="small"
-                value="8.200"
-              >
-              <span class="after"></span></div>
+              <span class="after">m³/s</span></div>
+
           </div>
           <a class="delete">
             <img src="../assets/img/delete.png" />
@@ -139,59 +149,69 @@
             class="wide"
             value="入口2"
           >
+          <div class="labelgroup">
+            <span class="before">经度</span>
+            <input
+              type="text"
+              class="small"
+              value="115.854502"
+            >
+
+          </div>
+          <div class="labelgroup">
+            <span class="before">纬度</span>
+            <input
+              type="text"
+              class="small"
+              value="38.766283"
+            >
+          </div>
           <div class="labelgroup-2x">
             <div class="labelgroup">
               <span class="before">COD</span>
               <input
                 type="text"
                 class="small"
-                value="10.000"
+                value="21.4389"
               >
-              <span class="after">g/m3</span>
-            </div>
-            <div class="labelgroup">
-              <span class="before">TP</span>
-              <input
-                type="text"
-                class="small"
-                value="0.050"
-              >
-              <span class="after">g/m3</span>
-            </div>
-            <div class="labelgroup">
-              <span class="before">NH-H</span>
-              <input
-                type="text"
-                class="small"
-                value="0.262"
-              >
-              <span class="after">g/m3</span>
+              <span class="after">mg/L</span>
             </div>
             <div class="labelgroup">
               <span class="before">TN</span>
               <input
                 type="text"
                 class="small"
-                value="0"
+                value="0.1"
               >
-              <span class="after">g/m3</span>
+              <span class="after">mg/L</span>
+            </div>
+            <div class="labelgroup">
+              <span class="before">NH3-N</span>
+              <input
+                type="text"
+                class="small"
+                value="0.07878"
+              >
+              <span class="after">mg/L</span>
+            </div>
+            <div class="labelgroup">
+              <span class="before">TP</span>
+              <input
+                type="text"
+                class="small"
+                value="0.097106"
+              >
+              <span class="after">mg/L</span>
             </div>
             <div class="labelgroup">
               <span class="before">流量</span>
               <input
                 type="text"
                 class="small"
-                value="105"
+                value="0.579"
               >
-              <span class="after">m3/S</span></div>
-            <div class="labelgroup">
-              <span class="before">PH</span>
-              <input
-                type="text"
-                class="small"
-                value="7.930"
-              >
-              <span class="after"></span></div>
+              <span class="after">m³/s</span></div>
+
           </div>
           <a class="delete">
             <img src="../assets/img/delete.png" />
@@ -203,59 +223,68 @@
             class="wide"
             value="入口3"
           >
+          <div class="labelgroup">
+            <span class="before">经度</span>
+            <input
+              type="text"
+              class="small"
+              value="115.85484"
+            >
+
+          </div>
+          <div class="labelgroup">
+            <span class="before">纬度</span>
+            <input
+              type="text"
+              class="small"
+              value="38.769723"
+            >
+          </div>
           <div class="labelgroup-2x">
             <div class="labelgroup">
               <span class="before">COD</span>
               <input
                 type="text"
                 class="small"
-                value="12.000"
+                value="21.4389"
               >
-              <span class="after">g/m3</span>
-            </div>
-            <div class="labelgroup">
-              <span class="before">TP</span>
-              <input
-                type="text"
-                class="small"
-                value="0.060"
-              >
-              <span class="after">g/m3</span>
-            </div>
-            <div class="labelgroup">
-              <span class="before">NH-H</span>
-              <input
-                type="text"
-                class="small"
-                value="0.259"
-              >
-              <span class="after">g/m3</span>
+              <span class="after">mg/L</span>
             </div>
             <div class="labelgroup">
               <span class="before">TN</span>
               <input
                 type="text"
                 class="small"
-                value="0"
+                value="0.1"
               >
-              <span class="after">g/m3</span>
+              <span class="after">mg/L</span>
+            </div>
+            <div class="labelgroup">
+              <span class="before">NH3-N</span>
+              <input
+                type="text"
+                class="small"
+                value="0.07878"
+              >
+              <span class="after">mg/L</span>
+            </div>
+            <div class="labelgroup">
+              <span class="before">TP</span>
+              <input
+                type="text"
+                class="small"
+                value="0.097106"
+              >
+              <span class="after">mg/L</span>
             </div>
             <div class="labelgroup">
               <span class="before">流量</span>
               <input
                 type="text"
                 class="small"
-                value="110"
+                value="0.694"
               >
-              <span class="after">m3/S</span></div>
-            <div class="labelgroup">
-              <span class="before">PH</span>
-              <input
-                type="text"
-                class="small"
-                value="7.790"
-              >
-              <span class="after"></span></div>
+              <span class="after">m³/s</span></div>
           </div>
           <a class="delete">
             <img src="../assets/img/delete.png" />
@@ -267,59 +296,69 @@
             class="wide"
             value="入口4"
           >
+          <div class="labelgroup">
+            <span class="before">经度</span>
+            <input
+              type="text"
+              class="small"
+              value="115.855296"
+            >
+
+          </div>
+          <div class="labelgroup">
+            <span class="before">纬度</span>
+            <input
+              type="text"
+              class="small"
+              value="38.773803"
+            >
+          </div>
           <div class="labelgroup-2x">
             <div class="labelgroup">
               <span class="before">COD</span>
               <input
                 type="text"
                 class="small"
-                value="13.000"
+                value="21.4389"
               >
-              <span class="after">g/m3</span>
-            </div>
-            <div class="labelgroup">
-              <span class="before">TP</span>
-              <input
-                type="text"
-                class="small"
-                value="0.090"
-              >
-              <span class="after">g/m3</span>
-            </div>
-            <div class="labelgroup">
-              <span class="before">NH-H</span>
-              <input
-                type="text"
-                class="small"
-                value="0.302"
-              >
-              <span class="after">g/m3</span>
+              <span class="after">mg/L</span>
             </div>
             <div class="labelgroup">
               <span class="before">TN</span>
               <input
                 type="text"
                 class="small"
-                value="0"
+                value="0.1"
               >
-              <span class="after">g/m3</span>
+              <span class="after">mg/L</span>
+            </div>
+            <div class="labelgroup">
+              <span class="before">NH3-N</span>
+              <input
+                type="text"
+                class="small"
+                value="0.07878"
+              >
+              <span class="after">mg/L</span>
+            </div>
+            <div class="labelgroup">
+              <span class="before">TP</span>
+              <input
+                type="text"
+                class="small"
+                value="0.097106"
+              >
+              <span class="after">mg/L</span>
             </div>
             <div class="labelgroup">
               <span class="before">流量</span>
               <input
                 type="text"
                 class="small"
-                value="115"
+                value="0.694"
               >
-              <span class="after">m3/S</span></div>
-            <div class="labelgroup">
-              <span class="before">PH</span>
-              <input
-                type="text"
-                class="small"
-                value="7.930"
-              >
-              <span class="after"></span></div>
+              <span class="after">m³/s</span></div>
+
           </div>
           <a class="delete">
             <img src="../assets/img/delete.png" />
@@ -331,65 +370,74 @@
             class="wide"
             value="出口1"
           >
+          <div class="labelgroup">
+            <span class="before">经度</span>
+            <input
+              type="text"
+              class="small"
+              value="115.85426"
+            >
+
+          </div>
+          <div class="labelgroup">
+            <span class="before">纬度</span>
+            <input
+              type="text"
+              class="small"
+              value="38.76392"
+            >
+          </div>
           <div class="labelgroup-2x">
             <div class="labelgroup">
               <span class="before">COD</span>
               <input
                 type="text"
                 class="small"
-                value="0.1"
+                value="21.4389"
               >
-              <span class="after">g/m3</span>
-            </div>
-            <div class="labelgroup">
-              <span class="before">TP</span>
-              <input
-                type="text"
-                class="small"
-                value="0.00"
-              >
-              <span class="after">g/m3</span>
-            </div>
-            <div class="labelgroup">
-              <span class="before">NH-H</span>
-              <input
-                type="text"
-                class="small"
-                value="0.01"
-              >
-              <span class="after">g/m3</span>
+              <span class="after">mg/L</span>
             </div>
             <div class="labelgroup">
               <span class="before">TN</span>
               <input
                 type="text"
                 class="small"
-                value="0"
+                value="0.1"
               >
-              <span class="after">g/m3</span>
+              <span class="after">mg/L</span>
+            </div>
+            <div class="labelgroup">
+              <span class="before">NH3-N</span>
+              <input
+                type="text"
+                class="small"
+                value="0.07878"
+              >
+              <span class="after">mg/L</span>
+            </div>
+            <div class="labelgroup">
+              <span class="before">TP</span>
+              <input
+                type="text"
+                class="small"
+                value="0.058264"
+              >
+              <span class="after">mg/L</span>
             </div>
             <div class="labelgroup">
               <span class="before">流量</span>
               <input
                 type="text"
                 class="small"
-                value="110"
+                value="2.314"
               >
-              <span class="after">m3/S</span></div>
-            <div class="labelgroup">
-              <span class="before">PH</span>
-              <input
-                type="text"
-                class="small"
-                value="7"
-              >
-              <span class="after"></span></div>
+              <span class="after">m³/s</span></div>
+
           </div>
           <a class="delete">
             <img src="../assets/img/delete.png" />
           </a>
         </li>
-
         <h3>
           <span class="h3laddbtn">+ 新增污染源</span>
         </h3>
@@ -429,6 +477,7 @@ btnArr();
 .inpanel {
   &.left {
     textarea {
+      text-indent 28px
       width: 100%;
       height: 16rem;
       box-sizing: border-box;

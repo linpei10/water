@@ -75,6 +75,10 @@ const routes = [
     path: '/2_1right',
     name: './2_1right',
     component: () => import('../views/2_1right.vue'),
+  }, {
+    path: '/map_sxq',
+    name: './map_sxq',
+    component: () => import('../views/map_sxq.vue'),
   },
 ];
 
@@ -83,5 +87,6 @@ const router = new VueRouter({
   base: process.env.BASE_URL,
   routes,
 });
+
 
 export default router;

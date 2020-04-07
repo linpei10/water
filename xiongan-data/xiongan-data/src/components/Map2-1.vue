@@ -11,23 +11,23 @@
       v-if="display"
     >
 
-<!--      <div class="pwk">-->
-<!--        <div-->
-<!--          v-for="n in pwk.length"-->
-<!--          v-bind:key="'pwk'+n"-->
-<!--          :class="setClass('marker_pwk', n-1)"-->
-<!--        >-->
-<!--          <img src="../assets/img/markDrop.png">-->
-<!--          <span class="t tt" v-if="infoShow">#{{n}} 排污口</span>-->
-<!--        </div>-->
-<!--      </div>-->
+            <div class="pwk">
+              <div
+                v-for="n in pwk.length"
+                v-bind:key="'pwk'+n"
+                :class="setClass('marker_pwk', n-1)"
+              >
+                <img src="../assets/img/markDrop.png">
+                <span class="t tt" v-if="infoShow">#{{n}} 排污口</span>
+              </div>
+            </div>
       <div class="dm">
         <div
           v-for="n in dm.length"
           v-bind:key="'dm'+n"
           :class="setClass('marker_dm', n-1)"
         >
-<!--          <div class="flag" v-if="flagShow">-->
+          <!--          <div class="flag" v-if="flagShow">-->
           <div class="flag">
             <div class="flagT">
               <span class="t1">#{{n}}仿真监测站</span>
@@ -39,8 +39,8 @@
               v-on:click="setPageClick(n-1)"
             >
           </router-link>
-<!--          <span class="t" v-if="(n-3)&&infoShow">污染源正常</span>-->
-<!--          <span class="t" v-else-if="!(n-3)&&infoShow">污染源关停</span><br>-->
+          <!--          <span class="t" v-if="(n-3)&&infoShow">污染源正常</span>-->
+          <!--          <span class="t" v-else-if="!(n-3)&&infoShow">污染源关停</span><br>-->
         </div>
       </div>
     </div>
@@ -149,120 +149,120 @@ export default {
 </script>
 
 <style lang="stylus" scoped>
-.flag {
-  pointer-events: none;
-  padding-bottom: 3rem;
-  border-left: 0.2rem solid #f7c809;
+  .flag {
+    pointer-events: none;
+    padding-bottom: 3rem;
+    border-left: 0.2rem solid #f7c809;
 
-  .flagT {
-    background: rgba(#09101A, 0.5);
-    padding: 1.6rem 1.4rem;
-    max-width: 18rem;
-    display: inline-block;
+    .flagT {
+      background: rgba(#09101A, 0.5);
+      padding: 1.6rem 1.4rem;
+      max-width: 18rem;
+      display: inline-block;
+      position: relative;
+
+      span {
+        display: block;
+
+        &.t1 {
+          color: #f7c809;
+          margin-bottom: 0.4rem;
+        }
+
+        &.t2 {
+          color: #67c0f5;
+        }
+      }
+    }
+  }
+
+  div[class^='marker'], div[class*='marker'], [class~='marker'], [class|="marker"] {
+  }
+
+  div[class^='marker_dm'], div[class*='marker_dm'], [class~='marker_dm'], [class|="marker"], div[class^='marker_pwk'], div[class*='marker_pwk'], [class~='marker_pwk'], [class|="marker_pwk"] {
+    z-index: 2;
     position: relative;
 
-    span {
-      display: block;
-
-      &.t1 {
-        color: #f7c809;
-        margin-bottom: 0.4rem;
-      }
-
-      &.t2 {
-        color: #67c0f5;
-      }
-    }
-  }
-}
-
-div[class^='marker'], div[class*='marker'], [class~='marker'], [class|="marker"] {
-}
-
-div[class^='marker_dm'], div[class*='marker_dm'], [class~='marker_dm'], [class|="marker"], div[class^='marker_pwk'], div[class*='marker_pwk'], [class~='marker_pwk'], [class|="marker_pwk"] {
-  z-index: 2;
-  position: relative;
-
-  .t {
-    z-index: -1;
-    display: inline-block;
-    position: absolute;
-    left: 3rem;
-    top: 1rem;
-    min-width: 8rem;
-    max-width: 15rem;
-    background: rgba(#fff, 0.2);
-    padding: 0.5rem 0.8rem 0.5rem 4rem;
-    opacity: 0;
-    transition: opacity ease 0.1s;
-
-    &.tt{
-      opacity: 1;
-    }
-  }
-
-  &:hover {
     .t {
-      opacity: 1;
+      z-index: -1;
+      display: inline-block;
+      position: absolute;
+      left: 3rem;
+      top: 1rem;
+      min-width: 8rem;
+      max-width: 15rem;
+      background: rgba(#fff, 0.2);
+      padding: 0.5rem 0.8rem 0.5rem 4rem;
+      opacity: 0;
+      transition: opacity ease 0.1s;
+
+      &.tt{
+        opacity: 1;
+      }
+    }
+
+    &:hover {
+      .t {
+        opacity: 1;
+      }
     }
   }
-}
 
-div[class^='marker_dm'], div[class*='marker_dm'], [class~='marker_dm']{
-  :hover{
-    animation: myblink 1.2s infinite;
+  div[class^='marker_dm'], div[class*='marker_dm'], [class~='marker_dm']{
+    :hover{
+      animation: myblink 1.2s infinite;
+    }
   }
-}
-@keyframes myblink{
-  50% {
-    opacity: 0.4;
+  @keyframes myblink{
+    50% {
+      opacity: 0.4;
+    }
   }
-}
 
-#container {
-  width: 100%;
-  height: 100vh;
-}
+  #container {
+    width: 100%;
+    height: 100vh;
+  }
 
-img {
-  // 图片是43:32
-  // height: 12.9rem;
-  // width: 9.6rem;
-  height: 8.6rem;
-  width: 6.4rem;
-  // height: 6.45rem;
-  // width: 4.8rem;
-}
+  img {
+    // 图片是43:32
+    // height: 12.9rem;
+    // width: 9.6rem;
+    height: 8.6rem;
+    width: 6.4rem;
+    // height: 6.45rem;
+    // width: 4.8rem;
+  }
 </style>
 
 <style lang="stylus">
-.mapBgCtn .ol-overlaycontainer {
-  &::before {
-    pointer-events: none;
-    content: '';
-    display: block;
-    width: 100vw;
-    height: 100vh;
-    position: fixed;
-    left: 0;
-    top: 0;
-    z-index: 0;
-    background-size: 20rem auto;
-    background-image: url('../assets/img/bgdot.png');
-  }
+  .mapBgCtn .ol-overlaycontainer {
+    &::before {
+      pointer-events: none;
+      content: '';
+      display: block;
+      width: 100vw;
+      height: 100vh;
+      position: fixed;
+      left: 0;
+      top: 0;
+      z-index: 0;
+      background-size: 20rem auto;
+      background-image: url('../assets/img/bgdot.png');
+    }
 
-  &::before {
-    pointer-events: none;
-    content: '';
-    display: block;
-    width: 100vw;
-    height: 100vh;
-    position: fixed;
-    left: 0;
-    top: 0;
-    z-index: 0;
-    background-size: cover;
-    background-image: url('../assets/img/bgshadow.svg');
+    &::before {
+      pointer-events: none;
+      content: '';
+      display: block;
+      width: 100vw;
+      height: 100vh;
+      position: fixed;
+      left: 0;
+      top: 0;
+      z-index: 0;
+      background-size: cover;
+      background-image: url('../assets/img/bgshadow.svg');
+    }
   }
-}
 </style>

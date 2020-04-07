@@ -10,8 +10,8 @@
       <!-- <div class="image">
         <img id="wrw" :src="require('../../assets/img/temp/'+imgUrl+'.png')"/>
       </div> -->
-      <video class="video_third2"  controls autoplay preload muted loop
-             :src="'uploads/govern/govern-chi/first/M1/'+this.$store.state.firstPageClick+'/'+this.$store.state.imgUrl1+videoname1" type="video/mp4">
+      <video class="video_four2" controls autoplay preload muted loop
+             :src="'uploads/sim/sim-chi/first/M1/'+this.$store.state.firstPageClick+'/'+this.$store.state.imgUrl2+videoname1" type="video/mp4">
         <!-- <source :src="'uploads/'+page+'/'+this.$store.state.firstPageClick+'/middle/'+imgUrl" type="video/mp4"> -->
         Your browser does not support the video tag.
       </video>
@@ -41,8 +41,8 @@ export default {
   },
   methods: {
     changeImg1(index) {
-      this.$store.state.imgUrl1 = `case2-${index}`;
-      console.log(this.$store.state.imgUrl1);
+      this.$store.state.imgUrl2 = `case1-${index}`;
+      console.log(this.$store.state.imgUrl2);
     },
   },
   props: {
@@ -120,7 +120,7 @@ export default {
       }
     }
   }
-video.video_third2{
+video.video_four2{
   width: 48.53rem;
   height: 27.5rem
 }
