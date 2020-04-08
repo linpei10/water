@@ -429,6 +429,79 @@
             <img src="../assets/img/delete.png" />
           </a>
         </li>
+        <li class="inputgroup templateUl">
+          <input
+            type="text"
+            class="wide"
+            value="出口"
+          >
+          <div class="labelgroup">
+            <span class="before">经度</span>
+            <input
+              type="text"
+              class="small"
+              value=""
+            >
+          </div>
+          <div class="labelgroup">
+            <span class="before">纬度</span>
+            <input
+              type="text"
+              class="small"
+              value=""
+            >
+          </div>
+          <div class="labelgroup-2x">
+            <div class="labelgroup">
+              <span class="before">COD</span>
+              <input
+                type="text"
+                class="small"
+                value=""
+              >
+              <span class="after">mg/L</span>
+            </div>
+            <div class="labelgroup">
+              <span class="before">TN</span>
+              <input
+                type="text"
+                class="small"
+                value=""
+              >
+              <span class="after">mg/L</span>
+            </div>
+            <div class="labelgroup">
+              <span class="before">NH3-N</span>
+              <input
+                type="text"
+                class="small"
+                value=""
+              >
+              <span class="after">mg/L</span>
+            </div>
+            <div class="labelgroup">
+              <span class="before">TP</span>
+              <input
+                type="text"
+                class="small"
+                value=""
+              >
+              <span class="after">mg/L</span>
+            </div>
+            <div class="labelgroup">
+              <span class="before">流量</span>
+              <input
+                type="text"
+                class="small"
+                value=""
+              >
+              <span class="after">m³/s</span></div>
+
+          </div>
+          <a class="delete">
+            <img src="../assets/img/delete.png" />
+          </a>
+        </li>
         <h3>
           <span class="h3laddbtn">+ 新增污染源</span>
         </h3>

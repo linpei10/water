@@ -195,7 +195,7 @@
           <circleProgress
             percent="0.073961"
             degree_percent="3.7"
-            title="NH3-N"
+            title="NH3-H"
             color="#F48E2A"
           />
           <circleProgress
@@ -570,6 +570,7 @@ export default {
           img {
             width: 11rem;
             margin: 0 6.8rem;
+            /*margin: 0 6.8rem;*/
 
             &:hover {
               background-color: rgba($ct2, 0.05);

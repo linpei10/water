@@ -204,6 +204,54 @@
             <img src="../assets/img/delete.png" />
           </a>
         </li>
+        <li class="inputgroup templateUl">
+          <input
+            type="text"
+            class="wide"
+            value="# 排污口"
+          >
+          <div class="labelgroup-2x">
+            <div class="labelgroup">
+              <span class="before">COD</span>
+              <input
+                type="text"
+                class="small"
+                value=""
+              >
+              <span class="after">mg/L</span>
+            </div>
+            <div class="labelgroup">
+              <span class="before">TP</span>
+              <input
+                type="text"
+                class="small"
+                value=""
+              >
+              <span class="after">mg/L</span>
+            </div>
+            <div class="labelgroup">
+              <span class="before">NH3-N</span>
+              <input
+                type="text"
+                class="small"
+                value=""
+              >
+              <span class="after">mg/L</span>
+            </div>
+            <div class="labelgroup">
+              <span class="before">TN</span>
+              <input
+                type="text"
+                class="small"
+                value=""
+              >
+              <span class="after">mg/L</span>
+            </div>
+          </div>
+          <a class="delete">
+            <img src="../assets/img/delete.png" />
+          </a>
+        </li>
       </ul>
       <button class="btnGrey"><i class="i">&#xe659;</i>添加监测站数据</button>
       <button class="btnGrey"><i class="i">&#xe808;</i>进行现状对比分析</button>

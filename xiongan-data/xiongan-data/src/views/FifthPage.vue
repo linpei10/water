@@ -323,25 +323,25 @@
         <div class="graph graph-qpollute">
           <circleProgress
             percent="20.10896"
-            degree_percent="50"
+            degree_percent="40"
             title="COD"
             color="#38AAFD"
           />
           <circleProgress
             percent="0.093941"
-            degree_percent="4.7"
+            degree_percent="2"
             title="TN"
             color="#3AC270"
           />
           <circleProgress
             percent="0.073961"
-            degree_percent="3.7"
-            title="NH3-N"
+            degree_percent="2"
+            title="NH3-H"
             color="#F48E2A"
           />
           <circleProgress
             percent="0.4702"
-            degree_percent="0.4"
+            degree_percent="0.2"
             title="TP"
             color="#C60F00"
           />

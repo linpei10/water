@@ -24,4 +24,5 @@ export default new Vuex.Store({
       return state.firstPageClick && state.imgUrl && state.imgUrl1 && state.imgUrl2;
     },
   },
+
 });

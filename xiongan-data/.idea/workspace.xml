@@ -2,56 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1844918b-4da6-4ace-bd07-da8be7ef4390" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/xiongan-data/public/map.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xiongan-data/src/assets/img/engineering.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xiongan-data/src/assets/img/markRed.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xiongan-data/src/assets/img/markshi.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xiongan-data/src/assets/img/site.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xiongan-data/src/assets/img/site_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xiongan-data/src/assets/json/data.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xiongan-data/src/components/Map2-1.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xiongan-data/src/components/Map4-2.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xiongan-data/src/components/Map6.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xiongan-data/src/components/fifthpage/Page1Left.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xiongan-data/src/components/fifthpage/Page1Middle.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xiongan-data/src/components/fifthpage/Page1Right.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xiongan-data/src/components/fourthpage/fourthLeft.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xiongan-data/src/components/fourthpage/fourthMiddle.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xiongan-data/src/components/fourthpage/fourthRight.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xiongan-data/src/views/map_sxq.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xiongan-data/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/xiongan-data/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xiongan-data/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/xiongan-data/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xiongan-data/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/xiongan-data/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xiongan-data/src/assets/basscss.min.styl" beforeDir="false" afterPath="$PROJECT_DIR$/xiongan-data/src/assets/basscss.min.styl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xiongan-data/src/assets/img/btnR1.png" beforeDir="false" afterPath="$PROJECT_DIR$/xiongan-data/src/assets/img/btnR1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xiongan-data/src/assets/img/btnR2.png" beforeDir="false" afterPath="$PROJECT_DIR$/xiongan-data/src/assets/img/btnR2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xiongan-data/src/assets/img/btnR3.png" beforeDir="false" afterPath="$PROJECT_DIR$/xiongan-data/src/assets/img/btnR3.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xiongan-data/src/assets/img/markIn.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xiongan-data/src/assets/img/markOut.png" beforeDir="false" afterPath="$PROJECT_DIR$/xiongan-data/src/assets/img/markOut.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xiongan-data/src/assets/img/site.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xiongan-data/src/assets/reset.scss" beforeDir="false" afterPath="$PROJECT_DIR$/xiongan-data/src/assets/reset.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xiongan-data/src/components/Map.vue" beforeDir="false" afterPath="$PROJECT_DIR$/xiongan-data/src/components/Map.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xiongan-data/src/components/Map4-1.vue" beforeDir="false" afterPath="$PROJECT_DIR$/xiongan-data/src/components/Map4-1.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/xiongan-data/src/components/Map5.vue" beforeDir="false" afterPath="$PROJECT_DIR$/xiongan-data/src/components/Map5.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xiongan-data/src/components/firstpage/Page1Left.vue" beforeDir="false" afterPath="$PROJECT_DIR$/xiongan-data/src/components/firstpage/Page1Left.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xiongan-data/src/components/firstpage/Page1Middle.vue" beforeDir="false" afterPath="$PROJECT_DIR$/xiongan-data/src/components/firstpage/Page1Middle.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xiongan-data/src/components/thirdpage/thirdLeft.vue" beforeDir="false" afterPath="$PROJECT_DIR$/xiongan-data/src/components/thirdpage/thirdLeft.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xiongan-data/src/components/thirdpage/thirdMiddle.vue" beforeDir="false" afterPath="$PROJECT_DIR$/xiongan-data/src/components/thirdpage/thirdMiddle.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xiongan-data/src/global.styl" beforeDir="false" afterPath="$PROJECT_DIR$/xiongan-data/src/global.styl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xiongan-data/src/router/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/xiongan-data/src/router/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiongan-data/src/components/circleProgress.vue" beforeDir="false" afterPath="$PROJECT_DIR$/xiongan-data/src/components/circleProgress.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/xiongan-data/src/store/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/xiongan-data/src/store/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xiongan-data/src/views/Combine.vue" beforeDir="false" afterPath="$PROJECT_DIR$/xiongan-data/src/views/Combine.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/xiongan-data/src/views/Design.vue" beforeDir="false" afterPath="$PROJECT_DIR$/xiongan-data/src/views/Design.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/xiongan-data/src/views/FifthPage.vue" beforeDir="false" afterPath="$PROJECT_DIR$/xiongan-data/src/views/FifthPage.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xiongan-data/src/views/FirstPage.vue" beforeDir="false" afterPath="$PROJECT_DIR$/xiongan-data/src/views/FirstPage.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xiongan-data/src/views/FourthPage.vue" beforeDir="false" afterPath="$PROJECT_DIR$/xiongan-data/src/views/FourthPage.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/xiongan-data/src/views/FourthPage_2.vue" beforeDir="false" afterPath="$PROJECT_DIR$/xiongan-data/src/views/FourthPage_2.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/xiongan-data/src/views/FourthPage_3.vue" beforeDir="false" afterPath="$PROJECT_DIR$/xiongan-data/src/views/FourthPage_3.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/xiongan-data/src/views/SecondPage.vue" beforeDir="false" afterPath="$PROJECT_DIR$/xiongan-data/src/views/SecondPage.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xiongan-data/src/views/SecondPage_1.vue" beforeDir="false" afterPath="$PROJECT_DIR$/xiongan-data/src/views/SecondPage_1.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xiongan-data/src/views/ThirdPage-2.vue" beforeDir="false" afterPath="$PROJECT_DIR$/xiongan-data/src/views/ThirdPage-2.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xiongan-data/src/views/ThirdPage.vue" beforeDir="false" afterPath="$PROJECT_DIR$/xiongan-data/src/views/ThirdPage.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,7 +39,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/xiongan-data/public/uploads/emer/right" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -165,6 +124,10 @@
       <workItem from="1585802397415" duration="3733000" />
       <workItem from="1585881015616" duration="9744000" />
       <workItem from="1586226261469" duration="1365000" />
+      <workItem from="1586229567315" duration="277000" />
+      <workItem from="1586230902816" duration="3524000" />
+      <workItem from="1586246611597" duration="13303000" />
+      <workItem from="1586334517941" duration="363000" />
     </task>
     <servers />
   </component>

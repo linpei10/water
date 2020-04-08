@@ -16,7 +16,7 @@
           v-bind:key="'pwk'+n"
           :class="setClass('marker_pwk', n-1)"
           v-on:click="clicked">
-          <img v-on:click="gotoFifth()" src="../assets/img/markRed.png">
+          <img class="img-shining" v-on:click="gotoFifth()" src="../assets/img/markRed.png">
           <span class="t">拥城思乡桥观测站</span>
         </div>
       </div>
@@ -267,7 +267,8 @@ img {
     background-image: url('../assets/img/bgshadow.svg');
   }
 }
-div[class*='marker_pwk']{
-    animation: myblink-data-v-3074bd5c 1.2s infinite;
+
+  img.img-shining{
+    animation: myblink-data-v-433643ee 2s infinite;
 }
 </style>
